@@ -8,11 +8,30 @@ permalink: /location.html
   <h1 class="page-title">Location <em>&amp;</em> facility map</h1>
 </section>
 
-<div class="map-grid">
-  {% for map in location.maps %}
-  {% if map %}<figure data-lightbox><img src="{{ map | asset | url }}" alt="CBI facility map {{ loop.index }}" loading="lazy"></figure>{% endif %}
-  {% endfor %}
-</div>
+<section class="map-location reveal">
+  <div class="map-info">
+    <h2 class="section-title">Find <em>us</em></h2>
+    <div class="contact-label">Mailing address</div>
+    <p class="address-lines">{{ location.address }}</p>
+    <p class="map-note">{{ location.directions_note }}</p>
+    <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query={{ location.map_query | urlencode }}" target="_blank" rel="noopener">Get directions ↗</a>
+  </div>
+  <div class="map-embed">
+    <iframe src="https://maps.google.com/maps?q={{ location.map_query | urlencode }}&amp;output=embed"
+      title="CBI location on Google Maps"
+      loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<section class="map-location reveal">
+  <div class="map-info">
+    <h2 class="section-title">Facility <em>plan</em></h2>
+    <p class="map-note">{{ location.maps_caption }}</p>
+  </div>
+  <figure class="map-embed map-plan" data-lightbox>
+    <img src="{{ location.maps[0] | asset | url }}" alt="CBI facility floor plan" loading="lazy">
+  </figure>
+</section>
 
 <div class="prose reveal">
   <p>Center for Biologic Imaging is housed in the medical research facility of the University of Pittsburgh Medical School in approximately <strong>6,500 sq ft of space</strong>. This space has been designed as a dedicated, state of the art imaging center, and has fully equipped microscopy suites, computer labs, and wet and dry bench space for light and electron microscopic preparations.</p>
