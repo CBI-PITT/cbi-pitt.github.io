@@ -10,10 +10,15 @@ permalink: /news-archive.html
 
 <div class="archive-list">
   {% for post in collections.news %}
-  <article class="archive-item reveal">
-    <div class="date">{{ post.data.date | displayDate }}</div>
-    <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-    {% if post.templateContent %}<p>{{ post.templateContent | striptags | truncate(220) }}</p>{% endif %}
+  <article class="archive-item reveal{% if post.data.image %} has-image{% endif %}">
+    {% if post.data.image %}
+    <a href="{{ post.url | url }}" class="archive-thumb"><img src="{{ post.data.image | asset | url }}" alt="{{ post.data.title }}" loading="lazy"></a>
+    {% endif %}
+    <div class="archive-body">
+      <div class="date">{{ post.data.date | displayDate }}</div>
+      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+      {% if post.templateContent %}<p>{{ post.templateContent | striptags | truncate(220) }}</p>{% endif %}
+    </div>
   </article>
   {% endfor %}
 </div>

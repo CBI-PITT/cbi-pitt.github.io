@@ -13,6 +13,8 @@ permalink: /location.html
     <h2 class="section-title">Find <em>us</em></h2>
     <div class="contact-label">Mailing address</div>
     <p class="address-lines">{{ location.address }}</p>
+    <div class="contact-label">Loading dock for deliveries</div>
+    <p class="address-lines">{{ location.loading_dock }}</p>
     <p class="map-note">{{ location.directions_note }}</p>
     <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query={{ location.map_query | urlencode }}" target="_blank" rel="noopener">Get directions ↗</a>
   </div>

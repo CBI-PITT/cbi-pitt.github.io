@@ -4,825 +4,943 @@
     "number": 1,
     "image": "assets/images/periodic/h-hydrogen.jpg",
     "row": 1,
-    "col": 1
+    "col": 1,
+    "detail": "assets/images/periodic/detail/1-detail.png"
   },
   {
     "symbol": "He",
     "number": 2,
     "image": "assets/images/periodic/he-helium.jpg",
     "row": 1,
-    "col": 18
+    "col": 18,
+    "detail": "assets/images/periodic/detail/2-detail.png"
   },
   {
     "symbol": "Li",
     "number": 3,
     "image": "assets/images/periodic/li-lithium.jpg",
     "row": 2,
-    "col": 1
+    "col": 1,
+    "detail": "assets/images/periodic/detail/3-detail.png"
   },
   {
     "symbol": "Be",
     "number": 4,
     "image": "assets/images/periodic/be-beryllium.jpg",
     "row": 2,
-    "col": 2
+    "col": 2,
+    "detail": "assets/images/periodic/detail/4-detail.png"
   },
   {
     "symbol": "B",
     "number": 5,
     "image": "assets/images/periodic/b-boron.jpg",
     "row": 2,
-    "col": 13
+    "col": 13,
+    "detail": "assets/images/periodic/detail/5-detail.png"
   },
   {
     "symbol": "C",
     "number": 6,
     "image": "assets/images/periodic/c-carbon.jpg",
     "row": 2,
-    "col": 14
+    "col": 14,
+    "detail": "assets/images/periodic/detail/6-detail.png"
   },
   {
     "symbol": "N",
     "number": 7,
     "image": "assets/images/periodic/n-nitrogen.jpg",
     "row": 2,
-    "col": 15
+    "col": 15,
+    "detail": "assets/images/periodic/detail/7-detail.png"
   },
   {
     "symbol": "O",
     "number": 8,
     "image": "assets/images/periodic/o-oxygen.jpg",
     "row": 2,
-    "col": 16
+    "col": 16,
+    "detail": "assets/images/periodic/detail/8-detail.png"
   },
   {
     "symbol": "F",
     "number": 9,
     "image": "assets/images/periodic/f-fluorine.jpg",
     "row": 2,
-    "col": 17
+    "col": 17,
+    "detail": "assets/images/periodic/detail/9-detail.png"
   },
   {
     "symbol": "Ne",
     "number": 10,
     "image": "assets/images/periodic/ne-neon.jpg",
     "row": 2,
-    "col": 18
+    "col": 18,
+    "detail": "assets/images/periodic/detail/10-detail.png"
   },
   {
     "symbol": "Na",
     "number": 11,
     "image": "assets/images/periodic/na-sodium.jpg",
     "row": 3,
-    "col": 1
+    "col": 1,
+    "detail": "assets/images/periodic/detail/11-detail.png"
   },
   {
     "symbol": "Mg",
     "number": 12,
     "image": "assets/images/periodic/mg-magnesium.jpg",
     "row": 3,
-    "col": 2
+    "col": 2,
+    "detail": "assets/images/periodic/detail/12-detail.png"
   },
   {
     "symbol": "Al",
     "number": 13,
     "image": "assets/images/periodic/al-aluminium.jpg",
     "row": 3,
-    "col": 13
+    "col": 13,
+    "detail": "assets/images/periodic/detail/13-detail.png"
   },
   {
     "symbol": "Si",
     "number": 14,
     "image": "assets/images/periodic/si-silicon.jpg",
     "row": 3,
-    "col": 14
+    "col": 14,
+    "detail": "assets/images/periodic/detail/14-detail.png"
   },
   {
     "symbol": "P",
     "number": 15,
     "image": "assets/images/periodic/p-phosphorus.jpg",
     "row": 3,
-    "col": 15
+    "col": 15,
+    "detail": "assets/images/periodic/detail/15-detail.png"
   },
   {
     "symbol": "S",
     "number": 16,
     "image": "assets/images/periodic/s-sulfur.jpg",
     "row": 3,
-    "col": 16
+    "col": 16,
+    "detail": "assets/images/periodic/detail/16-detail.png"
   },
   {
     "symbol": "Cl",
     "number": 17,
     "image": "assets/images/periodic/cl-chlorine.jpg",
     "row": 3,
-    "col": 17
+    "col": 17,
+    "detail": "assets/images/periodic/detail/17-detail.png"
   },
   {
     "symbol": "Ar",
     "number": 18,
     "image": "assets/images/periodic/ar-argon.jpg",
     "row": 3,
-    "col": 18
+    "col": 18,
+    "detail": "assets/images/periodic/detail/18-detail.png"
   },
   {
     "symbol": "K",
     "number": 19,
     "image": "assets/images/periodic/k-potassium.jpg",
     "row": 4,
-    "col": 1
+    "col": 1,
+    "detail": "assets/images/periodic/detail/19-detail.png"
   },
   {
     "symbol": "Ca",
     "number": 20,
     "image": "assets/images/periodic/ca-calcium.jpg",
     "row": 4,
-    "col": 2
+    "col": 2,
+    "detail": "assets/images/periodic/detail/20-detail.png"
   },
   {
     "symbol": "Sc",
     "number": 21,
     "image": "assets/images/periodic/sc-scandium.jpg",
     "row": 4,
-    "col": 3
+    "col": 3,
+    "detail": "assets/images/periodic/detail/21-detail.png"
   },
   {
     "symbol": "Ti",
     "number": 22,
     "image": "assets/images/periodic/ti-titanium.jpg",
     "row": 4,
-    "col": 4
+    "col": 4,
+    "detail": "assets/images/periodic/detail/22-detail.png"
   },
   {
     "symbol": "V",
     "number": 23,
     "image": "assets/images/periodic/v-vanadium.jpg",
     "row": 4,
-    "col": 5
+    "col": 5,
+    "detail": "assets/images/periodic/detail/23-detail.png"
   },
   {
     "symbol": "Cr",
     "number": 24,
     "image": "assets/images/periodic/cr-chromium.jpg",
     "row": 4,
-    "col": 6
+    "col": 6,
+    "detail": "assets/images/periodic/detail/24-detail.png"
   },
   {
     "symbol": "Mn",
     "number": 25,
     "image": "assets/images/periodic/mn-manganese.jpg",
     "row": 4,
-    "col": 7
+    "col": 7,
+    "detail": "assets/images/periodic/detail/25-detail.png"
   },
   {
     "symbol": "Fe",
     "number": 26,
     "image": "assets/images/periodic/fe-iron.jpg",
     "row": 4,
-    "col": 8
+    "col": 8,
+    "detail": "assets/images/periodic/detail/26-detail.png"
   },
   {
     "symbol": "Co",
     "number": 27,
     "image": "assets/images/periodic/co-cobalt.jpg",
     "row": 4,
-    "col": 9
+    "col": 9,
+    "detail": "assets/images/periodic/detail/27-detail.png"
   },
   {
     "symbol": "Ni",
     "number": 28,
     "image": "assets/images/periodic/ni-nickel.jpg",
     "row": 4,
-    "col": 10
+    "col": 10,
+    "detail": "assets/images/periodic/detail/28-detail.png"
   },
   {
     "symbol": "Cu",
     "number": 29,
     "image": "assets/images/periodic/cu-copper.jpg",
     "row": 4,
-    "col": 11
+    "col": 11,
+    "detail": "assets/images/periodic/detail/29-detail.png"
   },
   {
     "symbol": "Zn",
     "number": 30,
     "image": "assets/images/periodic/zn-zinc.jpg",
     "row": 4,
-    "col": 12
+    "col": 12,
+    "detail": "assets/images/periodic/detail/30-detail.png"
   },
   {
     "symbol": "Ga",
     "number": 31,
     "image": "assets/images/periodic/ga-gallium.jpg",
     "row": 4,
-    "col": 13
+    "col": 13,
+    "detail": "assets/images/periodic/detail/31-detail.png"
   },
   {
     "symbol": "Ge",
     "number": 32,
     "image": "assets/images/periodic/ge-germanium.jpg",
     "row": 4,
-    "col": 14
+    "col": 14,
+    "detail": "assets/images/periodic/detail/32-detail.png"
   },
   {
     "symbol": "As",
     "number": 33,
     "image": "assets/images/periodic/as-arsenic.jpg",
     "row": 4,
-    "col": 15
+    "col": 15,
+    "detail": "assets/images/periodic/detail/33-detail.png"
   },
   {
     "symbol": "Se",
     "number": 34,
     "image": "assets/images/periodic/se-selenium.jpg",
     "row": 4,
-    "col": 16
+    "col": 16,
+    "detail": "assets/images/periodic/detail/34-detail.png"
   },
   {
     "symbol": "Br",
     "number": 35,
     "image": "assets/images/periodic/br-bromine.jpg",
     "row": 4,
-    "col": 17
+    "col": 17,
+    "detail": "assets/images/periodic/detail/35-detail.png"
   },
   {
     "symbol": "Kr",
     "number": 36,
     "image": "assets/images/periodic/kr-krypton.jpg",
     "row": 4,
-    "col": 18
+    "col": 18,
+    "detail": "assets/images/periodic/detail/36-detail.png"
   },
   {
     "symbol": "Rb",
     "number": 37,
     "image": "assets/images/periodic/rb-rubidium.jpg",
     "row": 5,
-    "col": 1
+    "col": 1,
+    "detail": "assets/images/periodic/detail/37-detail.png"
   },
   {
     "symbol": "Sr",
     "number": 38,
     "image": "assets/images/periodic/sr-strontium.jpg",
     "row": 5,
-    "col": 2
+    "col": 2,
+    "detail": "assets/images/periodic/detail/38-detail.png"
   },
   {
     "symbol": "Y",
     "number": 39,
     "image": "assets/images/periodic/y-yttrium.jpg",
     "row": 5,
-    "col": 3
+    "col": 3,
+    "detail": "assets/images/periodic/detail/39-detail.png"
   },
   {
     "symbol": "Zr",
     "number": 40,
     "image": "assets/images/periodic/zr-zirconium.jpg",
     "row": 5,
-    "col": 4
+    "col": 4,
+    "detail": "assets/images/periodic/detail/40-detail.png"
   },
   {
     "symbol": "Nb",
     "number": 41,
     "image": "assets/images/periodic/nb-niobium.jpg",
     "row": 5,
-    "col": 5
+    "col": 5,
+    "detail": "assets/images/periodic/detail/41-detail.png"
   },
   {
     "symbol": "Mo",
     "number": 42,
     "image": "assets/images/periodic/mo-molybdenum.jpg",
     "row": 5,
-    "col": 6
+    "col": 6,
+    "detail": "assets/images/periodic/detail/42-detail.png"
   },
   {
     "symbol": "Tc",
     "number": 43,
     "image": "assets/images/periodic/tc-technetium.jpg",
     "row": 5,
-    "col": 7
+    "col": 7,
+    "detail": "assets/images/periodic/detail/43-detail.png"
   },
   {
     "symbol": "Ru",
     "number": 44,
     "image": "assets/images/periodic/ru-ruthenium.jpg",
     "row": 5,
-    "col": 8
+    "col": 8,
+    "detail": "assets/images/periodic/detail/44-detail.png"
   },
   {
     "symbol": "Rh",
     "number": 45,
     "image": "assets/images/periodic/rh-rhodium.jpg",
     "row": 5,
-    "col": 9
+    "col": 9,
+    "detail": "assets/images/periodic/detail/45-detail.png"
   },
   {
     "symbol": "Pd",
     "number": 46,
     "image": "assets/images/periodic/pd-palladium.jpg",
     "row": 5,
-    "col": 10
+    "col": 10,
+    "detail": "assets/images/periodic/detail/46-detail.png"
   },
   {
     "symbol": "Ag",
     "number": 47,
     "image": "assets/images/periodic/ag-silver.jpg",
     "row": 5,
-    "col": 11
+    "col": 11,
+    "detail": "assets/images/periodic/detail/47-detail.png"
   },
   {
     "symbol": "Cd",
     "number": 48,
     "image": "assets/images/periodic/cd-cadmium.jpg",
     "row": 5,
-    "col": 12
+    "col": 12,
+    "detail": "assets/images/periodic/detail/48-detail.png"
   },
   {
     "symbol": "In",
     "number": 49,
     "image": "assets/images/periodic/in-indium.jpg",
     "row": 5,
-    "col": 13
+    "col": 13,
+    "detail": "assets/images/periodic/detail/49-detail.png"
   },
   {
     "symbol": "Sn",
     "number": 50,
     "image": "assets/images/periodic/sn-tin.jpg",
     "row": 5,
-    "col": 14
+    "col": 14,
+    "detail": "assets/images/periodic/detail/50-detail.png"
   },
   {
     "symbol": "Sb",
     "number": 51,
     "image": "assets/images/periodic/sb-antimony.jpg",
     "row": 5,
-    "col": 15
+    "col": 15,
+    "detail": "assets/images/periodic/detail/51-detail.png"
   },
   {
     "symbol": "Te",
     "number": 52,
     "image": "assets/images/periodic/te-tellurium.jpg",
     "row": 5,
-    "col": 16
+    "col": 16,
+    "detail": "assets/images/periodic/detail/52-detail.png"
   },
   {
     "symbol": "I",
     "number": 53,
     "image": "assets/images/periodic/i-iodine.jpg",
     "row": 5,
-    "col": 17
+    "col": 17,
+    "detail": "assets/images/periodic/detail/53-detail.png"
   },
   {
     "symbol": "Xe",
     "number": 54,
     "image": "assets/images/periodic/xe-xenon.jpg",
     "row": 5,
-    "col": 18
+    "col": 18,
+    "detail": "assets/images/periodic/detail/54-detail.png"
   },
   {
     "symbol": "Cs",
     "number": 55,
     "image": "assets/images/periodic/cs-caesium.jpg",
     "row": 6,
-    "col": 1
+    "col": 1,
+    "detail": "assets/images/periodic/detail/55-detail.png"
   },
   {
     "symbol": "Ba",
     "number": 56,
     "image": "assets/images/periodic/ba-barium.jpg",
     "row": 6,
-    "col": 2
+    "col": 2,
+    "detail": "assets/images/periodic/detail/56-detail.png"
   },
   {
     "symbol": "Hf",
     "number": 57,
     "image": "assets/images/periodic/hf-lanthanum.jpg",
     "row": 6,
-    "col": 4
+    "col": 4,
+    "detail": "assets/images/periodic/detail/72-detail.png"
   },
   {
     "symbol": "Ta",
     "number": 58,
     "image": "assets/images/periodic/ta-cerium.jpg",
     "row": 6,
-    "col": 5
+    "col": 5,
+    "detail": "assets/images/periodic/detail/73-detail.png"
   },
   {
     "symbol": "W",
     "number": 59,
     "image": "assets/images/periodic/w-praseodymium.jpg",
     "row": 6,
-    "col": 6
+    "col": 6,
+    "detail": "assets/images/periodic/detail/74-detail.jpeg"
   },
   {
     "symbol": "Re",
     "number": 60,
     "image": "assets/images/periodic/re-neodymium.jpg",
     "row": 6,
-    "col": 7
+    "col": 7,
+    "detail": "assets/images/periodic/detail/75-detail.png"
   },
   {
     "symbol": "Os",
     "number": 61,
     "image": "assets/images/periodic/os-promethium.jpg",
     "row": 6,
-    "col": 8
+    "col": 8,
+    "detail": "assets/images/periodic/detail/76-detail.png"
   },
   {
     "symbol": "Ir",
     "number": 62,
     "image": "assets/images/periodic/ir-samarium.jpg",
     "row": 6,
-    "col": 9
+    "col": 9,
+    "detail": "assets/images/periodic/detail/77-detail.png"
   },
   {
     "symbol": "Pt",
     "number": 63,
     "image": "assets/images/periodic/pt-europium.jpg",
     "row": 6,
-    "col": 10
+    "col": 10,
+    "detail": "assets/images/periodic/detail/78-detail.png"
   },
   {
     "symbol": "Au",
     "number": 64,
     "image": "assets/images/periodic/au-gadolinium.jpg",
     "row": 6,
-    "col": 11
+    "col": 11,
+    "detail": "assets/images/periodic/detail/79-detail.png"
   },
   {
     "symbol": "Hg",
     "number": 65,
     "image": "assets/images/periodic/hg-terbium.jpg",
     "row": 6,
-    "col": 12
+    "col": 12,
+    "detail": "assets/images/periodic/detail/80-detail.png"
   },
   {
     "symbol": "Tl",
     "number": 66,
     "image": "assets/images/periodic/tl-dysprosium.jpg",
     "row": 6,
-    "col": 13
+    "col": 13,
+    "detail": "assets/images/periodic/detail/81-detail.png"
   },
   {
     "symbol": "Pb",
     "number": 67,
     "image": "assets/images/periodic/pb-holmium.jpg",
     "row": 6,
-    "col": 14
+    "col": 14,
+    "detail": "assets/images/periodic/detail/82-detail.png"
   },
   {
     "symbol": "Bi",
     "number": 68,
     "image": "assets/images/periodic/bi-erbium.jpg",
     "row": 6,
-    "col": 15
+    "col": 15,
+    "detail": "assets/images/periodic/detail/83-detail.png"
   },
   {
     "symbol": "Po",
     "number": 69,
     "image": "assets/images/periodic/po-thulium.jpg",
     "row": 6,
-    "col": 16
+    "col": 16,
+    "detail": "assets/images/periodic/detail/84-detail.png"
   },
   {
     "symbol": "At",
     "number": 70,
     "image": "assets/images/periodic/at-ytterbium.jpg",
     "row": 6,
-    "col": 17
+    "col": 17,
+    "detail": "assets/images/periodic/detail/85-detail.png"
   },
   {
     "symbol": "Rn",
     "number": 71,
     "image": "assets/images/periodic/rn-lutetium.jpg",
     "row": 6,
-    "col": 18
+    "col": 18,
+    "detail": "assets/images/periodic/detail/86-detail.png"
   },
   {
     "symbol": "Fr",
     "number": 72,
     "image": "assets/images/periodic/fr-hafnium.jpg",
     "row": 7,
-    "col": 1
+    "col": 1,
+    "detail": "assets/images/periodic/detail/87-detail.png"
   },
   {
     "symbol": "Ra",
     "number": 73,
     "image": "assets/images/periodic/ra-tantalum.jpg",
     "row": 7,
-    "col": 2
+    "col": 2,
+    "detail": "assets/images/periodic/detail/88-detail.png"
   },
   {
     "symbol": "Rf",
     "number": 74,
     "image": "assets/images/periodic/rf-tungsten.jpg",
     "row": 7,
-    "col": 4
+    "col": 4,
+    "detail": "assets/images/periodic/detail/104-detail.png"
   },
   {
     "symbol": "Db",
     "number": 75,
     "image": "assets/images/periodic/db-rhenium.jpg",
     "row": 7,
-    "col": 5
+    "col": 5,
+    "detail": "assets/images/periodic/detail/105-detail.png"
   },
   {
     "symbol": "Sg",
     "number": 76,
     "image": "assets/images/periodic/sg-osmium.jpg",
     "row": 7,
-    "col": 6
+    "col": 6,
+    "detail": "assets/images/periodic/detail/106-detail.png"
   },
   {
     "symbol": "Bh",
     "number": 77,
     "image": "assets/images/periodic/bh-iridium.jpg",
     "row": 7,
-    "col": 7
+    "col": 7,
+    "detail": "assets/images/periodic/detail/107-detail.png"
   },
   {
     "symbol": "Hs",
     "number": 78,
     "image": "assets/images/periodic/hs-platinum.jpg",
     "row": 7,
-    "col": 8
+    "col": 8,
+    "detail": "assets/images/periodic/detail/108-detail.png"
   },
   {
     "symbol": "Mt",
     "number": 79,
     "image": "assets/images/periodic/mt-gold.jpg",
     "row": 7,
-    "col": 9
+    "col": 9,
+    "detail": "assets/images/periodic/detail/109-detail.png"
   },
   {
     "symbol": "Ds",
     "number": 80,
     "image": "assets/images/periodic/ds-mercury.jpg",
     "row": 7,
-    "col": 10
+    "col": 10,
+    "detail": "assets/images/periodic/detail/110-detail.png"
   },
   {
     "symbol": "Rg",
     "number": 81,
     "image": "assets/images/periodic/rg-thallium.jpg",
     "row": 7,
-    "col": 11
+    "col": 11,
+    "detail": "assets/images/periodic/detail/111-detail.png"
   },
   {
     "symbol": "Cn",
     "number": 82,
     "image": "assets/images/periodic/cn-lead.jpg",
     "row": 7,
-    "col": 12
+    "col": 12,
+    "detail": "assets/images/periodic/detail/112-detail.png"
   },
   {
     "symbol": "Nh",
     "number": 83,
     "image": "assets/images/periodic/nh-bismuth.jpg",
     "row": 7,
-    "col": 13
+    "col": 13,
+    "detail": "assets/images/periodic/detail/113-detail.png"
   },
   {
     "symbol": "Fl",
     "number": 84,
     "image": "assets/images/periodic/fl-polonium.jpg",
     "row": 7,
-    "col": 14
+    "col": 14,
+    "detail": "assets/images/periodic/detail/114-detail.png"
   },
   {
     "symbol": "Mc",
     "number": 85,
     "image": "assets/images/periodic/mc-astatine.jpg",
     "row": 7,
-    "col": 15
+    "col": 15,
+    "detail": "assets/images/periodic/detail/115-detail.png"
   },
   {
     "symbol": "Lv",
     "number": 86,
     "image": "assets/images/periodic/lv-radon.jpg",
     "row": 7,
-    "col": 16
+    "col": 16,
+    "detail": "assets/images/periodic/detail/116-detail.png"
   },
   {
     "symbol": "Ts",
     "number": 87,
     "image": "assets/images/periodic/ts-francium.jpg",
     "row": 7,
-    "col": 17
+    "col": 17,
+    "detail": "assets/images/periodic/detail/117-detail.png"
   },
   {
     "symbol": "Og",
     "number": 88,
     "image": "assets/images/periodic/og-radium.jpg",
     "row": 7,
-    "col": 18
+    "col": 18,
+    "detail": "assets/images/periodic/detail/118-detail.png"
   },
   {
     "symbol": "La",
     "number": 89,
     "image": "assets/images/periodic/la-actinium.jpg",
     "row": 9,
-    "col": 3
+    "col": 4,
+    "detail": "assets/images/periodic/detail/57-detail.png"
   },
   {
     "symbol": "Ce",
     "number": 90,
     "image": "assets/images/periodic/ce-thorium.jpg",
     "row": 9,
-    "col": 4
+    "col": 5,
+    "detail": "assets/images/periodic/detail/58-detail.png"
   },
   {
     "symbol": "Pr",
     "number": 91,
     "image": "assets/images/periodic/pr-protactinium.jpg",
     "row": 9,
-    "col": 5
+    "col": 6,
+    "detail": "assets/images/periodic/detail/59-detail.png"
   },
   {
     "symbol": "Nd",
     "number": 92,
     "image": "assets/images/periodic/nd-uranium.jpg",
     "row": 9,
-    "col": 6
+    "col": 7,
+    "detail": "assets/images/periodic/detail/60-detail.png"
   },
   {
     "symbol": "Pm",
     "number": 93,
     "image": "assets/images/periodic/pm-neptunium.jpg",
     "row": 9,
-    "col": 7
+    "col": 8,
+    "detail": "assets/images/periodic/detail/61-detail.png"
   },
   {
     "symbol": "Sm",
     "number": 94,
     "image": "assets/images/periodic/sm-plutonium.jpg",
     "row": 9,
-    "col": 8
+    "col": 9,
+    "detail": "assets/images/periodic/detail/62-detail.png"
   },
   {
     "symbol": "Eu",
     "number": 95,
     "image": "assets/images/periodic/eu-americium.jpg",
     "row": 9,
-    "col": 9
+    "col": 10,
+    "detail": "assets/images/periodic/detail/63-detail.png"
   },
   {
     "symbol": "Gd",
     "number": 96,
     "image": "assets/images/periodic/gd-curium.jpg",
     "row": 9,
-    "col": 10
+    "col": 11,
+    "detail": "assets/images/periodic/detail/64-detail.png"
   },
   {
     "symbol": "Tb",
     "number": 97,
     "image": "assets/images/periodic/tb-berkelium.jpg",
     "row": 9,
-    "col": 11
+    "col": 12,
+    "detail": "assets/images/periodic/detail/65-detail.png"
   },
   {
     "symbol": "Dy",
     "number": 98,
     "image": "assets/images/periodic/dy-californium.jpg",
     "row": 9,
-    "col": 12
+    "col": 13,
+    "detail": "assets/images/periodic/detail/66-detail.jpeg"
   },
   {
     "symbol": "Ho",
     "number": 99,
     "image": "assets/images/periodic/ho-einsteinium.jpg",
     "row": 9,
-    "col": 13
+    "col": 14,
+    "detail": "assets/images/periodic/detail/67-detail.png"
   },
   {
     "symbol": "Er",
     "number": 100,
     "image": "assets/images/periodic/er-fermium.jpg",
     "row": 9,
-    "col": 14
+    "col": 15,
+    "detail": "assets/images/periodic/detail/68-detail.png"
   },
   {
     "symbol": "Tm",
     "number": 101,
     "image": "assets/images/periodic/tm-mendelevium.jpg",
     "row": 9,
-    "col": 15
+    "col": 16,
+    "detail": "assets/images/periodic/detail/69-detail.png"
   },
   {
     "symbol": "Yb",
     "number": 102,
     "image": "assets/images/periodic/yb-nobelium.jpg",
     "row": 9,
-    "col": 16
+    "col": 17,
+    "detail": "assets/images/periodic/detail/70-detail.png"
   },
   {
     "symbol": "Lu",
     "number": 103,
     "image": "assets/images/periodic/lu-lawrencium.jpg",
     "row": 9,
-    "col": 17
+    "col": 18,
+    "detail": "assets/images/periodic/detail/71-detail.png"
   },
   {
     "symbol": "Ac",
     "number": 104,
     "image": "assets/images/periodic/ac-rutherfordium.jpg",
     "row": 10,
-    "col": 3
+    "col": 4,
+    "detail": "assets/images/periodic/detail/89-detail.png"
   },
   {
     "symbol": "Th",
     "number": 105,
     "image": "assets/images/periodic/th-dubnium.jpg",
     "row": 10,
-    "col": 4
+    "col": 5,
+    "detail": "assets/images/periodic/detail/90-detail.png"
   },
   {
     "symbol": "Pa",
     "number": 106,
     "image": "assets/images/periodic/pa-seaborgium.jpg",
     "row": 10,
-    "col": 5
+    "col": 6,
+    "detail": "assets/images/periodic/detail/91-detail.png"
   },
   {
     "symbol": "U",
     "number": 107,
     "image": "assets/images/periodic/u-bohrium.jpg",
     "row": 10,
-    "col": 6
+    "col": 7,
+    "detail": "assets/images/periodic/detail/92-detail.png"
   },
   {
     "symbol": "Np",
     "number": 108,
     "image": "assets/images/periodic/np-hassium.jpg",
     "row": 10,
-    "col": 7
+    "col": 8,
+    "detail": "assets/images/periodic/detail/93-detail.png"
   },
   {
     "symbol": "Pu",
     "number": 109,
     "image": "assets/images/periodic/pu-meitnerium.jpg",
     "row": 10,
-    "col": 8
+    "col": 9,
+    "detail": "assets/images/periodic/detail/94-detail.png"
   },
   {
     "symbol": "Am",
     "number": 110,
     "image": "assets/images/periodic/am-darmstadtium.jpg",
     "row": 10,
-    "col": 9
+    "col": 10,
+    "detail": "assets/images/periodic/detail/95-detail.png"
   },
   {
     "symbol": "Cm",
     "number": 111,
     "image": "assets/images/periodic/cm-roentgenium.jpg",
     "row": 10,
-    "col": 10
+    "col": 11,
+    "detail": "assets/images/periodic/detail/96-detail.png"
   },
   {
     "symbol": "Bk",
     "number": 112,
     "image": "assets/images/periodic/bk-copernicium.jpg",
     "row": 10,
-    "col": 11
+    "col": 12,
+    "detail": "assets/images/periodic/detail/97-detail.png"
   },
   {
     "symbol": "Cf",
     "number": 113,
     "image": "assets/images/periodic/cf-nihonium.jpg",
     "row": 10,
-    "col": 12
+    "col": 13,
+    "detail": "assets/images/periodic/detail/98-detail.png"
   },
   {
     "symbol": "Es",
     "number": 114,
     "image": "assets/images/periodic/es-flerovium.jpg",
     "row": 10,
-    "col": 13
+    "col": 14,
+    "detail": "assets/images/periodic/detail/99-detail.png"
   },
   {
     "symbol": "Fm",
     "number": 115,
     "image": "assets/images/periodic/fm-moscovium.jpg",
     "row": 10,
-    "col": 14
+    "col": 15,
+    "detail": "assets/images/periodic/detail/100-detail.png"
   },
   {
     "symbol": "Md",
     "number": 116,
     "image": "assets/images/periodic/md-livermorium.jpg",
     "row": 10,
-    "col": 15
+    "col": 16,
+    "detail": "assets/images/periodic/detail/101-detail.png"
   },
   {
     "symbol": "No",
     "number": 117,
     "image": "assets/images/periodic/no-tennessine.jpg",
     "row": 10,
-    "col": 16
+    "col": 17,
+    "detail": "assets/images/periodic/detail/102-detail.png"
   },
   {
     "symbol": "Lr",
     "number": 118,
     "image": "assets/images/periodic/lr-oganesson.jpg",
     "row": 10,
-    "col": 17
+    "col": 18,
+    "detail": "assets/images/periodic/detail/103-detail.png"
   }
 ]

@@ -16,10 +16,9 @@ permalink: /periodic-table.html
 <div class="pt-grid reveal" role="list" aria-label="Periodic table of electron microscopy">
   {% for el in periodic %}
   <div class="pt-cell" role="listitem" data-lightbox data-caption="Element {{ el.number }} — {{ el.symbol }}"
+       {% if el.detail %}data-full="{{ el.detail | asset | url }}"{% endif %}
        style="grid-row: {{ el.row }}; grid-column: {{ el.col }};">
     <img src="{{ el.image | asset | url }}" alt="Element {{ el.number }} — {{ el.symbol }}" loading="lazy">
-    <span class="num">{{ el.number }}</span>
-    <span class="sym">{{ el.symbol }}</span>
   </div>
   {% endfor %}
 </div>

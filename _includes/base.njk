@@ -40,7 +40,6 @@
           <a href="{{ '/gallery.html' | url }}" {% if page.url == "/gallery.html" %}class="active"{% endif %}>Gallery</a>
           <a href="{{ '/mosaic-gallery.html' | url }}" {% if page.url == "/mosaic-gallery.html" %}class="active"{% endif %}>Mosaic Gallery</a>
           <a href="{{ '/periodic-table.html' | url }}" {% if page.url == "/periodic-table.html" %}class="active"{% endif %}>Periodic Table of EM</a>
-          <a href="{{ '/news-archive.html' | url }}" {% if page.url == "/news-archive.html" %}class="active"{% endif %}>News Archive</a>
         </div>
         <div class="nav-group">
           <div class="nav-label">Resources</div>
@@ -50,6 +49,11 @@
           <a href="{{ '/training.html' | url }}" {% if page.url == "/training.html" %}class="active"{% endif %}>Publications</a>
           <a href="{{ '/cover.html' | url }}" {% if page.url == "/cover.html" %}class="active"{% endif %}>Covers &amp; Publications</a>
           <a href="{{ '/usage-policy.html' | url }}" {% if page.url == "/usage-policy.html" %}class="active"{% endif %}>Usage Policy</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">Download links</div>
+          <a href="{{ site.external.onedrive }}" target="_blank" rel="noopener">OneDrive ↗</a>
+          <a href="{{ site.external.globus }}" target="_blank" rel="noopener">Globus ↗</a>
         </div>
       </nav>
 

@@ -27,7 +27,7 @@
     "name": "Fritz Slide Scanner",
     "description": "Slide scanner scope capable of scanning bright-field images very quickly and easily.",
     "availability": "Core Instrument training available.",
-    "room": "s216.4",
+    "room": "s216",
     "image": "assets/images/equipment/fritz-slide-scanner.jpg",
     "tier": "Core equipment — available 24/7"
   },

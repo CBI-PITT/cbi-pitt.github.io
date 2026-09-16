@@ -3,8 +3,9 @@
     "assets/images/misc/cbi-facility-map-2.png"
   ],
   "maps_caption": "Second-floor plan of the CBI in the Biomedical Science Tower — entrance and elevators central, Satellite Lab to the west, and the Image Analysis Suite (234), Light Lab (233) and EM Lab prep room (224) to the east.",
-  "address": "BST S224, 3500 Terrace Street, Pittsburgh, PA 15261",
-  "map_query": "Biomedical Science Tower, 3500 Terrace Street, Pittsburgh, PA 15261",
+  "address": "BST S224, 205 Lothrop Street, Pittsburgh, PA 15261",
+  "loading_dock": "Eye and Ear receiving, Lothrop Street",
+  "map_query": "Biomedical Science Tower, 205 Lothrop Street, Pittsburgh, PA 15261",
   "directions_note": "Enter from Darragh or Lothrop St. Take South wing elevators to 2nd floor. Main facility through double glass doors.",
   "body": "Center for Biologic Imaging is housed in the medical research facility of the University of Pittsburgh Medical School in approximately 6,500 sq ft of space. This space has been designed as a dedicated, state of the art imaging center, and has fully equipped microscopy suites, computer labs, and wet and dry bench space for light and electron microscopic preparations.\n\nThe center currently employs 4 faculty and 14 staff including multiple post-doctoral fellows, students and technicians. As can be seen from our equipment list, we have an installed base of over 31 optical sectioning microscopes of different types, as well as multiple systems dedicated to super-resolution imaging, we also have several electron microscopes. Essentially the Center is designed as a “one stop shop” for all optical imaging needs. For a full list of our equipment, please see our equipment page."
 }
