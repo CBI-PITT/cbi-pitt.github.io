@@ -33,14 +33,6 @@
       "photo": "assets/images/staff/patricia-loughran.jpg"
     },
     {
-      "name": "Katarzyna (Kasia) Kedziora",
-      "role": "Research Instructor",
-      "email": "kasia.kedziora@pitt.edu",
-      "nih": "https://www.ncbi.nlm.nih.gov/myncbi/katarzyna.kedziora.1/bibliography/public/",
-      "bio": "I am a microscopist and image analyst. I find it fascinating how machine and deep learning has totally revolutionized the field of computer vision and I would like to make these state-of-the-art analysis methods accessible to biologists working with microscopy images. To achieve this, I develop customized and automated data analysis and visualization pipelines and train scientists to use them in their quantitative microscopy projects. My work is funded by the Chan Zuckerberg Initiative (CZI) Imaging Scientist Program and as such I am committed to providing access to analysis tools and resources to improve data and metadata handling, quality control, sharing and reproducibility. Finally, I am passionate about teaching microscopy and programming on all levels—from third graders to postdocs.",
-      "photo": "assets/images/staff/katarzyna-kasia-kedziora.jpg"
-    },
-    {
       "name": "Iana Vasylieva",
       "role": "Research Instructor",
       "email": "IAV7@pitt.edu",
