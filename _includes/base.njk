@@ -10,6 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/news/placeholder.svg' | url }}">
+  {% if site.analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics }}');
+  </script>
+  {% endif %}
 </head>
 <body{% if bodyClass %} data-page="{{ bodyClass }}"{% endif %}>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -131,7 +140,8 @@
           <div class="contact-label">Phones</div>
           <a href="tel:{{ site.phones.lm }}">{{ site.phones.lm }}</a>
           <a href="tel:{{ site.phones.em }}">{{ site.phones.em }}</a>
-          <div class="contact-sub">LM lab · EM lab</div>
+          <span class="fax-line">{{ site.phones.fax }} (fax)</span>
+          <div class="contact-sub">LM lab · EM lab · Fax</div>
         </div>
       </div>
       <p class="contact-note">Please <strong>always contact a faculty member before submitting samples</strong> for a new project — see the <a href="{{ '/staffpage.html' | url }}">faculty &amp; staff directory</a>.</p>
