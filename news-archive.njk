@@ -1,0 +1,19 @@
+---
+title: News Archive
+layout: base
+permalink: /news-archive.html
+---
+<section class="page-hero">
+  <div class="eyebrow">CBI News</div>
+  <h1 class="page-title">News <em>archive</em></h1>
+</section>
+
+<div class="archive-list">
+  {% for post in collections.news %}
+  <article class="archive-item reveal">
+    <div class="date">{{ post.data.date | displayDate }}</div>
+    <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+    {% if post.templateContent %}<p>{{ post.templateContent | striptags | truncate(220) }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>

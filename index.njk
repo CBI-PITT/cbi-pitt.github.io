@@ -37,7 +37,8 @@ permalink: /
     <h2>CBI <em>news</em></h2>
   </div>
   <div class="news-grid">
-    {% for post in collections.news %}
+    {% set recent = collections.news.slice(0, 6) %}
+    {% for post in recent %}
     <article class="news-card reveal">
       <div class="thumb">
         {% if post.data.image %}
@@ -55,5 +56,8 @@ permalink: /
       </div>
     </article>
     {% endfor %}
+  </div>
+  <div class="news-archive-link">
+    <a href="{{ '/news-archive.html' | url }}">News Archive →</a>
   </div>
 </section>
