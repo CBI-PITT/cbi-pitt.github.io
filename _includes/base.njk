@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} — {% endif %}{{ site.name }} · University of Pittsburgh</title>
+  <meta name="description" content="The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/news/placeholder.svg' | url }}">
+</head>
+<body{% if bodyClass %} data-page="{{ bodyClass }}"{% endif %}>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="backdrop" data-backdrop></div>
+
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+    <div class="sidebar-inner">
+      <a href="{{ '/index.html' | url }}" class="brand">
+        {% if site.logo_cbi %}<img src="{{ site.logo_cbi | asset | url }}" alt="CBI logo" class="brand-logo">{% endif %}
+        <span class="brand-text"><strong>Center for</strong><br>Biologic Imaging</span>
+      </a>
+
+      <nav class="nav">
+        <div class="nav-group">
+          <div class="nav-label">Explore</div>
+          <a href="{{ '/index.html' | url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
+          <a href="{{ '/staffpage.html' | url }}" {% if page.url == "/staffpage.html" %}class="active"{% endif %}>Faculty &amp; Staff</a>
+          <a href="{{ '/location.html' | url }}" {% if page.url == "/location.html" %}class="active"{% endif %}>Location</a>
+          <a href="{{ '/equipment.html' | url }}" {% if page.url == "/equipment.html" %}class="active"{% endif %}>Equipment</a>
+          <a href="{{ '/gallery.html' | url }}" {% if page.url == "/gallery.html" %}class="active"{% endif %}>Gallery</a>
+          <a href="{{ '/mosaic-gallery.html' | url }}" {% if page.url == "/mosaic-gallery.html" %}class="active"{% endif %}>Mosaic Gallery</a>
+          <a href="{{ '/periodic-table.html' | url }}" {% if page.url == "/periodic-table.html" %}class="active"{% endif %}>Periodic Table of EM</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">Resources</div>
+          <a href="{{ '/sample.html' | url }}" {% if page.url == "/sample.html" %}class="active"{% endif %}>Sample Forms</a>
+          <a href="{{ '/protocols.html' | url }}" {% if page.url == "/protocols.html" %}class="active"{% endif %}>Protocols</a>
+          <a href="{{ '/training-videos.html' | url }}" {% if page.url == "/training-videos.html" %}class="active"{% endif %}>Training Videos</a>
+          <a href="{{ '/training.html' | url }}" {% if page.url == "/training.html" %}class="active"{% endif %}>Publications</a>
+          <a href="{{ '/cover.html' | url }}" {% if page.url == "/cover.html" %}class="active"{% endif %}>Covers &amp; Publications</a>
+          <a href="{{ '/usage-policy.html' | url }}" {% if page.url == "/usage-policy.html" %}class="active"{% endif %}>Usage Policy</a>
+        </div>
+      </nav>
+
+      <div class="sidebar-actions">
+        <a class="btn btn-primary" href="{{ site.external.scheduler }}" target="_blank" rel="noopener">Scheduler ↗</a>
+        <button class="btn btn-ghost" data-contact-open>Get in Touch</button>
+      </div>
+
+      <div class="sidebar-foot">
+        <span>LM lab · {{ site.phones.lm }}</span>
+        <span>EM lab · {{ site.phones.em }}</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="shell">
+    <header class="topbar">
+      <button class="menu-btn" data-nav-toggle aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="topbar-title">{{ site.org }} <span class="dot">·</span> {{ site.name }}</div>
+      <button class="topbar-contact" data-contact-open>Get in Touch</button>
+    </header>
+
+    <main id="main" class="main">
+      {% if date and title %}
+      <article class="news-article reveal">
+        <a href="{{ '/index.html' | url }}" class="crumb">← Back to all news</a>
+        {% if image %}<div class="news-hero"><img src="{{ image | asset | url }}" alt="{{ title }}"></div>{% endif %}
+        <div class="news-article-meta">{{ date | displayDate }}</div>
+        <h1 class="page-title">{{ title }}</h1>
+        <div class="prose"><p>{{ content | safe }}</p></div>
+        {% if link %}<p><a class="btn btn-primary" href="{{ link }}" target="_blank" rel="noopener">Read more ↗</a></p>{% endif %}
+      </article>
+      {% else %}
+      {{ content | safe }}
+      {% endif %}
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          {% if site.logo_pitt %}<img src="{{ site.logo_pitt | asset | url }}" alt="University of Pittsburgh" class="footer-logo">{% endif %}
+          <div class="footer-tagline">{{ site.tagline }}</div>
+        </div>
+        <div class="footer-links">
+          <a href="{{ site.external.scheduler }}" target="_blank" rel="noopener">Scheduler</a>
+          <a href="{{ '/staffpage.html' | url }}">Directory</a>
+          <a href="{{ '/usage-policy.html' | url }}">Usage Policy</a>
+        </div>
+        <div class="footer-copy">Copyright © {{ site.org }}, {{ site.name }}. All Rights Reserved.</div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="contact-panel" id="contact-panel" role="dialog" aria-modal="true" aria-label="Get in touch" hidden>
+    <div class="contact-card">
+      <button class="contact-close" data-contact-close aria-label="Close">✕</button>
+      <h2 class="contact-title">Get in touch</h2>
+      <p class="contact-intro">New to the CBI? Start with our director. Planning a project? Reach the right contact directly.</p>
+      <div class="contact-grid">
+        <div class="contact-block">
+          <div class="contact-label">Director</div>
+          <a href="mailto:simon.watkins@pitt.edu">simon.watkins@pitt.edu</a>
+          <div class="contact-sub">Simon Watkins — your first point of contact</div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-label">Faculty</div>
+          <a href="mailto:claudette.stcroix@pitt.edu">claudette.stcroix@pitt.edu</a>
+          <a href="mailto:Alan.Watson@pitt.edu">Alan.Watson@pitt.edu</a>
+          <div class="contact-sub">Live animal / tissue clearing projects</div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-label">Lab managers</div>
+          <a href="mailto:mross@pitt.edu">mross@pitt.edu</a>
+          <a href="mailto:jonnysax@gmail.com">jonnysax@gmail.com</a>
+          <div class="contact-sub">Light lab · Electron microscopy</div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-label">Phones</div>
+          <a href="tel:{{ site.phones.lm }}">{{ site.phones.lm }}</a>
+          <a href="tel:{{ site.phones.em }}">{{ site.phones.em }}</a>
+          <div class="contact-sub">LM lab · EM lab</div>
+        </div>
+      </div>
+      <p class="contact-note">Please <strong>always contact a faculty member before submitting samples</strong> for a new project — see the <a href="{{ '/staffpage.html' | url }}">faculty &amp; staff directory</a>.</p>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" data-lightbox-close aria-label="Close">✕</button>
+    <button class="lightbox-nav lightbox-prev" data-lightbox-prev aria-label="Previous image">‹</button>
+    <figure class="lightbox-figure"><img src="" alt=""></figure>
+    <button class="lightbox-nav lightbox-next" data-lightbox-next aria-label="Next image">›</button>
+    <figcaption class="lightbox-caption"></figcaption>
+  </div>
+
+  <script src="{{ '/js/main.js' | url }}" defer></script>
+</body>
+</html>

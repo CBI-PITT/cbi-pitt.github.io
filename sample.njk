@@ -1,0 +1,28 @@
+---
+title: Sample Submission Forms
+layout: base
+permalink: /sample.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Sample submission <em>forms</em></h1>
+  <p class="page-sub"><strong style="color:var(--magenta)">Please contact a Faculty member BEFORE submitting samples for a new project.</strong></p>
+</section>
+
+<div class="sample-grid">
+  {% set protocols_data = protocols %}
+  {% for item in [
+    {"title": "EM Sample", "desc": "Electron microscopy sample submission form.", "file": "assets/docs/6022a059dc4b862cbbbafe34_EM.docx", "icon": "⚗"},
+    {"title": "LM Sample", "desc": "Light microscopy sample submission form.", "file": "assets/docs/6022a059a3b701b9f16546b3_LM.docx", "icon": "🔬"},
+    {"title": "Clearing Sample", "desc": "Tissue clearing sample submission form.", "file": "assets/docs/6022a0593573d07d5a1051f6_Clearing.docx", "icon": "🧫"}
+  ] %}
+  {% if item.file %}
+  <a class="sample-card reveal" href="{{ item.file | asset | url }}" download>
+    <span class="icon">{{ item.icon }}</span>
+    <h3>{{ item.title }}<br>submission form</h3>
+    <p>{{ item.desc }}</p>
+    <span class="btn btn-primary">Download .docx</span>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>

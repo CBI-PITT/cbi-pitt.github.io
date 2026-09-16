@@ -1,0 +1,29 @@
+---
+title: Periodic Table of EM
+layout: base
+permalink: /periodic-table.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Electron Microscopy</div>
+  <h1 class="page-title">The periodic table of <em>Electron Microscopy</em></h1>
+  <p class="page-sub">Choose your interesting element and click on it to get more detailed information — every element is a micrograph.</p>
+</section>
+
+<div class="pt-legend reveal">
+  <span><b>Tip:</b> hover to enlarge · click for the full micrograph</span>
+</div>
+
+<div class="pt-grid reveal" role="list" aria-label="Periodic table of electron microscopy">
+  {% for el in periodic %}
+  <div class="pt-cell" role="listitem" data-lightbox data-caption="Element {{ el.number }} — {{ el.symbol }}"
+       style="grid-row: {{ el.row }}; grid-column: {{ el.col }};">
+    <img src="{{ el.image | asset | url }}" alt="Element {{ el.number }} — {{ el.symbol }}" loading="lazy">
+    <span class="num">{{ el.number }}</span>
+    <span class="sym">{{ el.symbol }}</span>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pt-credits reveal">
+  <p>This periodic table is the combined work of present and past staff members from the Electron Microscopy Unit of the Center for Biologic Imaging from 1997 to 2008: Donna Beer Stolz, Jonathan Franks, Mara Sullivan, Ming Sun, Doris Clay, Andrew Barchowsky, Liz Iannone, Marc Rubin, Ana Lopez, Katie Clark, Fengli Guo, Fran Shagas, and Simon Watkins. We thank our many collaborators, both from the University of Pittsburgh and outside institutions, who allowed us generous use of their samples and/or images.</p>
+</div>

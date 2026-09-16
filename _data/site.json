@@ -1,0 +1,20 @@
+{
+  "name": "Center for Biologic Imaging",
+  "org": "University of Pittsburgh",
+  "tagline": "Science you can see",
+  "url": "https://cbipitt.github.io",
+  "phones": {
+    "lm": "412-648-9796",
+    "em": "412-648-8865"
+  },
+  "external": {
+    "scheduler": "https://scheduler.cbi.pitt.edu/calendar.html",
+    "onedrive": "https://pitt-my.sharepoint.com/:f:/g/personal/cbi_pitt_edu/EgKAZCC_P8NMoOxE0Bz1Wx4BkVanT95LEjbcYVdBBdmDjw?e=i9a5mk",
+    "globus": "https://app.globus.org/file-manager?origin_id=1bf48fb7-75c4-4768-b88f-c08b9d2ee3b4&origin_path=%2FopenShare%2F",
+    "ilabs": "https://pitt.ilab.agilent.com/service_center/show_external/6790/cbi_electron_microscopy_lab",
+    "video": "https://www.youtube.com/embed/XqrOEuVN_vA"
+  },
+  "hero_image": "assets/images/misc/60087bffeec65e665ec3ccbf_Surface20rendering20sample2018x12.jpg",
+  "logo_cbi": "assets/images/misc/5ff3727a717937797f894bcc_CBI20logo202020_08_122002_26_4220UTC.png",
+  "logo_pitt": "assets/images/misc/5ff3b4c57010394e64c7d834_University_of_Pittsburgh_Logo_CMYK_Secondary_Reverse_2-Color202020_08_122002_26_4220UTC.png"
+}

@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Nikon STORM",
+    "description": "STORM super resolution confocal.",
+    "availability": "Core Instrument training available.",
+    "room": "S216.4",
+    "image": "assets/images/equipment/649da59664bac1069109bb63_20230629_111103.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Nikon NI-E II",
+    "description": "Upright widefield system capable of imaging 4-color fluorescence and white light with a motorized stage.",
+    "availability": "Core Instrument training available.",
+    "room": "S216.7",
+    "image": "assets/images/equipment/649da7146ed33362e893898b_20230629_111809.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Nikon NI-E I",
+    "description": "Upright widefield system capable of imaging 4-color fluorescence and white light with a motorized stage.",
+    "availability": "Core Instrument training available.",
+    "room": "S216.7",
+    "image": "assets/images/equipment/649da6d929a2776b8ca6a8d2_20230629_111159.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Fritz Slide Scanner",
+    "description": "Slide scanner scope capable of scanning bright-field images very quickly and easily.",
+    "availability": "Core Instrument training available.",
+    "room": "s216.4",
+    "image": "assets/images/equipment/649da4ebcd71ab116bff005d_20230629_111535.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Olympus Provis 1 Fluorescence",
+    "description": "Upright widefield capable of imaging white light, 4-color fluorescence, DIC, and polarized light",
+    "availability": "Core Instrument training available.",
+    "room": "S216.8",
+    "image": "assets/images/equipment/6012feecc7faab3a8c821526_Provis201202020_08_122002_26_4220UTC.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Olympus Fluoview 1000-2 Confocal",
+    "description": "Upright 4-color confocal and DIC system",
+    "availability": "Core Instrument training available.",
+    "room": "S216.1",
+    "image": "assets/images/equipment/6012fd92292ac51471b202f9_flowview201000202202020_08_122002_26_4220UTC.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Olympus Fluoview 3000 Confocal",
+    "description": "Inverted 4-color confocal.",
+    "availability": "Core Instrument training available.",
+    "room": "S216.9",
+    "image": "assets/images/equipment/6012fd5a064c21241a2e6516_flowview1000201202020_08_122002_26_4220UTC.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Nikon A1 Confocal",
+    "description": "Inverted 4-color confocal and DIC system with motorized stage.",
+    "availability": "Core Instrument training available.",
+    "room": "S216.3",
+    "image": "assets/images/equipment/6012fca6b1d37749dccd8e77_Nikon20A1202202020_08_122002_26_4220UTC.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Nikon A1 Confocal",
+    "description": "Inverted 4-color confocal and DIC system with motorized stage.",
+    "availability": "Core Instrument training available.",
+    "room": "S216.6",
+    "image": "assets/images/equipment/6012fbf904ec631b6b58da56_Nikon20A1202020_08_122002_26_4220UTC.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Analysis Computers",
+    "description": "Multiple analysis computers are available for collaborator use.",
+    "availability": "Core Instrument training available.",
+    "room": "S216 & CBI lobby",
+    "image": "assets/images/equipment/6011d3cbeb149ccb67e587af_analysis20computer.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Cryostat",
+    "description": "Multiple Cryostats are available for frozen slide sections.",
+    "availability": "Core Instrument training available.",
+    "room": "S233",
+    "image": "assets/images/equipment/6011c8675c8a3839254d5d90_cryos.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Nikon A1 Confocal",
+    "description": "Standard A1 Confocal",
+    "availability": "Core Instrument training available.",
+    "room": "S216.2",
+    "image": "assets/images/equipment/6011a6caad21005db298ad0a_AAA20nikon20a12202020_08_122002_26_4220UTC.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Leica High Pressure Freezer",
+    "description": "Freeze unfixed samples down for Freeze sub processing",
+    "availability": "",
+    "room": "S224",
+    "image": "assets/images/equipment/6a95d3d8cc736fcff80ba436_20260831_140030.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Nikon Multiphoton",
+    "description": "Our newest Nikon Multiphoton.",
+    "availability": "",
+    "room": "S209",
+    "image": "assets/images/equipment/649da6372ac93810b22768ea_20230629_110941.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Nikon Multiphoton",
+    "description": "",
+    "availability": "",
+    "room": "S218B",
+    "image": "assets/images/equipment/60130716064c2107552ea1bd_Nikon20multiphoton202020_08_122002_26_4220UTC.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Nikon Multiphoton",
+    "description": "",
+    "availability": "",
+    "room": "S208.1",
+    "image": "assets/images/equipment/601306c904ec637d395918e4_Nikon20multiphoton202202020_08_122002_26_4220UTC.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Nikon SIM",
+    "description": "SIM super-resolution confocal.",
+    "availability": "",
+    "room": "S216.5",
+    "image": "assets/images/equipment/649da55667a4e10db130a3df_20230629_111449.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Leica STED Super Resolution Confocal",
+    "description": "",
+    "availability": "",
+    "room": "S229",
+    "image": "assets/images/equipment/601300a43c37863bcd9bd92c_sted202020_08_122002_26_4220UTC.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Nikon A1R Spectral Confocal",
+    "description": "Inverted 4-color confocal and DIC system with motorized stage, with capacity for advanced live cell imaging and spectral detection.",
+    "availability": "",
+    "room": "S216.8",
+    "image": "assets/images/equipment/6012fb84cb327d6f3ba740d9_Nikon20A120confocal202020_08_122002_26_4220UTC.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Leica Freeze Substitution",
+    "description": "Freeze-sub used for processing TEM samples.",
+    "availability": "",
+    "room": "S224",
+    "image": "assets/images/equipment/6011d4dd3b41bc7429ec0560_freeze20sub.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Sputter and Carbon Coater",
+    "description": "Gold-palladium and carbon coater is available for SEM preparation",
+    "availability": "",
+    "room": "S236",
+    "image": "assets/images/equipment/6011d37da52976e08de04bb8_sputter20coater.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Critical Point Dryer",
+    "description": "Critical point dryer for SEM preparation.",
+    "availability": "",
+    "room": "S236",
+    "image": "assets/images/equipment/6011c8ca18dbb31717a3f520_cpd.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Leica Ultramicrotomes",
+    "description": "We have multiple Leica Ultramicrotomes",
+    "availability": "",
+    "room": "S224",
+    "image": "assets/images/equipment/6011c4ffa23adc0358d8352f_ultram.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Nikon Ti Live Cell",
+    "description": "",
+    "availability": "",
+    "room": "218E",
+    "image": "assets/images/equipment/6011a6212d1aae424238a7ff_AAA20live20cell201202020_08_122002_26_4220UTC.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "Nikon Eclipse Ti Live Cell",
+    "description": "",
+    "availability": "",
+    "room": "S230",
+    "image": "assets/images/equipment/6011a1884a877d74d8ae4571_live20cell20nikon201202020_08_122002_26_4220UTC.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "JEOL 1400-PLUS 120kv TEM",
+    "description": "The 1400-Plus is our 120KV TEM that is available for outside users after training.",
+    "availability": "",
+    "room": "S226",
+    "image": "assets/images/equipment/60005f1cb4eb5c0aeccd7e2c_TEM201400202020_08_122002_26_4220UTC.jpg",
+    "tier": "Limited access core equipment"
+  },
+  {
+    "name": "MesoSPIM",
+    "description": "",
+    "availability": "",
+    "room": "S206",
+    "image": "assets/images/equipment/649dcd7894387f0283b14c6e_20230629_111354.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "3i Lattice Lightsheet",
+    "description": "",
+    "availability": "",
+    "room": "S218C",
+    "image": "assets/images/equipment/6011a0ff70340d4243d424f1_lightsheet202020_08_122002_26_4220UTC.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Jeol Freeze Fracture",
+    "description": "",
+    "availability": "",
+    "room": "S235",
+    "image": "assets/images/equipment/649da891fc00fcd16cd267eb_20230629_113015.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Olympus Slideview",
+    "description": "High throughput slide scanner",
+    "availability": "",
+    "room": "S233",
+    "image": "assets/images/equipment/649dcc900da9eb79c4de028e_20230629_112921.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "JEOL 1400-FLASH 120KV TEM",
+    "description": "The JEOL 1400-Flash is the newest addition to the EM lab.",
+    "availability": "",
+    "room": "S227",
+    "image": "assets/images/equipment/6000589071f8c5478f74b50b_TEM201400f202020_08_302016_03_3320UTC.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Nikon A1 Confocal",
+    "description": "Main lab Nikon A1",
+    "availability": "",
+    "room": "S232",
+    "image": "assets/images/equipment/6000689241a2806deff72bc0_nikon20A120232202020_08_122002_26_4220UTC.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Nikon A1 Confocal",
+    "description": "",
+    "availability": "",
+    "room": "S218D",
+    "image": "assets/images/equipment/6011a063386dcbd386f06956_AAA20nikon20A1202020_08_122002_26_4220UTC.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Leica Cryo-ultramicrotome",
+    "description": "Leica Ultramicrome with a cryo-kit",
+    "availability": "",
+    "room": "S224",
+    "image": "assets/images/equipment/6011c829a06d64af2db727e3_cryou.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Caliber Ribbon Scanning Confocal",
+    "description": "",
+    "availability": "",
+    "room": "S228",
+    "image": "assets/images/equipment/601306170233e365310a378e_calibery20harley.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Caliber Ribbon Scanning Confocal",
+    "description": "",
+    "availability": "",
+    "room": "S228",
+    "image": "assets/images/equipment/601307f81d8cb60754a312cd_calibery20darth.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Caliber Ribbon Scanning Confocal",
+    "description": "",
+    "availability": "",
+    "room": "S228",
+    "image": "assets/images/equipment/60130816fbe9676e6627a06d_caliber20nemo.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Nikon Eclipse Ti Live Cell",
+    "description": "",
+    "availability": "",
+    "room": "S231",
+    "image": "assets/images/equipment/60130b5fdbc16b768ca44add_live20cell20nikon202202020_08_122002_26_4220UTC.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Incucyte Incubator Confocal",
+    "description": "",
+    "availability": "",
+    "room": "S235",
+    "image": "assets/images/equipment/601310a9fbe9672ecb27c3bd_incucyte.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "Nikon Slide Express 2",
+    "description": "",
+    "availability": "",
+    "room": "S233",
+    "image": "assets/images/equipment/649dccee977dc53d3b22de94_20230629_112933.jpg",
+    "tier": "CBI only & restricted equipment"
+  },
+  {
+    "name": "JSM-IT710HRLV SEM",
+    "description": "The JSM-IT710 is our CLEM and large area scanning SEM.",
+    "availability": "",
+    "room": "S237",
+    "image": "assets/images/equipment/6a95beb5eb990b8287635db0_20260831_134223.jpg",
+    "tier": "CBI only & restricted equipment"
+  }
+]

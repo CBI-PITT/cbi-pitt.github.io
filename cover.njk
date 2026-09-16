@@ -1,0 +1,55 @@
+---
+title: Covers & Publications
+layout: base
+permalink: /cover.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Covers <em>&amp;</em> publications</h1>
+  <p class="page-sub">Journal covers produced at the CBI, featured publications and a complete list of papers — all PDFs are stored locally.</p>
+</section>
+
+<div class="tabs" data-tabs role="tablist">
+  <button class="tab-btn active" data-tab="covers" role="tab">Covers</button>
+  <button class="tab-btn" data-tab="featured" role="tab">Featured</button>
+  <button class="tab-btn" data-tab="list" role="tab">Publications</button>
+</div>
+
+<div class="tab-panel" data-panel="covers">
+  <div class="cover-grid">
+    {% for cover in publications.covers %}
+    {% if cover %}
+    <figure class="cover-item" data-lightbox data-caption="Journal cover">
+      <img src="{{ cover | asset | url }}" alt="Journal cover {{ loop.index }}" loading="lazy">
+    </figure>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="tab-panel" data-panel="featured" hidden>
+  {% for pub in publications.featured %}
+  <article class="featured-pub reveal">
+    <div>
+      {% if pub.cover %}<img src="{{ pub.cover | asset | url }}" alt="{{ pub.title }}" loading="lazy">{% endif %}
+    </div>
+    <div>
+      <h3>{{ pub.title }}</h3>
+      {% if pub.authors %}<div class="authors">{{ pub.authors }}</div>{% endif %}
+      {% if pub.abstract %}<p class="abstract">{{ pub.abstract }}</p>{% endif %}
+      {% if pub.pdf %}<a class="btn btn-magenta" style="margin-top:14px;" href="{{ pub.pdf | asset | url }}" target="_blank" rel="noopener">Download PDF</a>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<div class="tab-panel" data-panel="list" hidden>
+  <div class="pub-list">
+    {% for pub in publications.list %}
+    <div class="pub-item">
+      <a class="t" href="{{ pub.pdf | asset | url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+      <span class="pdf">PDF ↓</span>
+    </div>
+    {% endfor %}
+  </div>
+</div>

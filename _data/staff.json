@@ -1,0 +1,114 @@
+{
+  "faculty": [
+    {
+      "name": "Simon Watkins",
+      "role": "Director of CBI and your first point of contact.",
+      "email": "simon.watkins@pitt.edu",
+      "nih": "http://www.ncbi.nlm.nih.gov/sites/myncbi/simon.watkins.1/bibliography/46306974/public/?sort=date&direction=ascending",
+      "bio": "Optical Microscopy has formed the core of my research career which has led to the development of the CBI as one of the largest research centers in the US specializing in the development and application of computer aided microscopy. My personal interests are to build, test, and use cutting edge optical tools for all types of research microscopic imaging in cells, tissues and animals from the single molecule to the whole animal, the goal being to build highly flexible, maximally effective imaging solutions, to be used by academic researchers. As a professor of Cell Biology a major focus of my research has been to develop, build, and apply computer aided microscopes and analysis tools for imaging subcellular events at all levels of resolution within fixed and living systems. These include high speed Total internal Reflection Fluorescence microscopes able to image at 1000 frames/second, high speed confocal prototype systems able to scan very large tissue sections with submicron resolution at very high speed. My achievements in this field had led to my promotion to Distinguished Professor in 2014. Most recently we have been developing very high speed deep tissue imaging solutions to collect quantitative images at the diffraction limit of entire tissues including brain, and building automated multi-spectral upright solutions combined with deep learning methods to dissect spectrally complex multiplex samples. If you want to discuss how the CBI works, start building a relationship with the center, or just want to find out more about what we do and how we work with colleagues just send me a mail",
+      "photo": "assets/images/staff/6006e542873433245085a570_simon202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Claudette St. Croix",
+      "role": "Runs the live tissue/multiphoton component of CBI, contact for planning experiments involving live animal imaging",
+      "email": "claudette.stcroix@pitt.edu",
+      "nih": "https://www.ncbi.nlm.nih.gov/myncbi/claudette.st%20croix.1/bibliography/public/?sortby=pubDate&sdirection=descending",
+      "bio": "I am a tenured Professor of Cell Biology and Associate Director of the Center for Biologic Imaging (CBI). My research program combines my background and expertise in cell biology and molecular physiology with an elite-level knowledge of state-of-the-art optical imaging and advanced image analysis. Research themes include the development and use of novel fluorescence-based probes and in vivo imaging technologies. My leadership role as Associate Director of the CBI has led to a larger role in directing programmatic funding and collaborative efforts between School of Medicine investigators and the CBI, with an emphasis on advanced tools including complex image processing, multiparametric live cell microscopy, focused light intravital small animal imaging, and super-resolution microscopy methods. I have well-established, active and productive collaborations with NIH funded investigators that use an array of elite level imaging modalities to study molecular signaling events in living cells, tissue and animal models.",
+      "photo": "assets/images/staff/600ed7dbcd737e0ca68f7621_claudette202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Alan Watson",
+      "role": "Runs the tissue clearing and ribbon scanning component of CBI, contact for planning experiments involving clearing and large area scans.",
+      "email": "alan.watson@pitt.edu",
+      "nih": "https://www.ncbi.nlm.nih.gov/myncbi/alan.watson.1/bibliography/public/",
+      "bio": "Systems approaches to biologic questions are becoming more important as scientists strive to understand how their favorite molecule or cell fits into the broader picture of organismal development, tissue organization or pathogenesis. Exciting technologies have emerged that enable whole organs and even organisms to be imaged at very high resolutions such that individual cells can be easily located among billions. This facilitates the tracing of neuronal circuits, reconstruction of neuronal activity across whole brains, characterization of immune microenvironments and following the spread of pathogens among others. My interests include the development of platforms to facilitate rapid high-resolution volumetric imaging of whole tissues. The success of these platforms depends upon a wide variety of technologies which include tissue preparation methods, high-speed imaging systems and infrastructure to collect, store and process tera- even peta-scale imaging data. I am fascinated by the way that these technologies influence how biologists ask questions, and I am excited by making our tools accessible to the basic biologist. Towards these goals, we have developed the high-speed ribbon scanning confocal microscope (RSCM) into a platform for high-resolution cleared tissue imaging. Together with tissue clearing approaches, we can digitally reconstruct centimeter thick tissue with submicron detail. Consequently, the data acquired from large tissues can reach many terabytes which requires developing visualization and processing environments that handle exceptionally large datasets. To support the RSCM and other high throughput imaging platforms, my lab has led the Center for Biologic Imaging in the development of a high-performance computing infrastructure which includes petabytes of file storage, specialized cluster / grid computing platforms, and software which makes interacting with these resources simple for people with no experience using otherwise complex computational tools.",
+      "photo": "assets/images/staff/60008e5980dd39aca02b0bab_alan202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Patricia Loughran",
+      "role": "Research Assistant Professor and Department of Surgery Liason",
+      "email": "loughranp@upmc.edu",
+      "nih": "https://www.ncbi.nlm.nih.gov/myncbi/12oUn3vFCHPQn/bibliography/public/",
+      "bio": "Dr. Loughran is a Research Assistant Professor and the CBI liaison for the Department of Surgery. She has a long-standing interest in the molecular and cellular mechanisms that are necessary in protein subcellular compartmentalization and protein binding partners in models of inflammation, redox stress, and its’ role in surgical stress models. Additional interest includes the sequence of events that exist as a controlled mechanism to minimize damage to the environment thru protein or organelle removal. Microscopy and single-cell approaches are key tools in the defining of the host phenotype response to trauma and its' inverse relationship to a sustained upregulation of inflammatory pathways and alteration in immune defense. CBI has the tools and expertise that enabled determination of spatial distributions of cellular label and the (patho)biology alterations in response to tissue damage. Within the CBI, Dr. Loughran is responsible for the generation of quantitative optical microscopy and qualitative electron microscopy data which are a key component in publications and funding awards for the Department of Surgery.",
+      "photo": "assets/images/staff/5fff5437903ea65edfd9597d_patricia202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Katarzyna (Kasia) Kedziora",
+      "role": "Research Instructor",
+      "email": "kasia.kedziora@pitt.edu",
+      "nih": "https://www.ncbi.nlm.nih.gov/myncbi/katarzyna.kedziora.1/bibliography/public/",
+      "bio": "I am a microscopist and image analyst. I find it fascinating how machine and deep learning has totally revolutionized the field of computer vision and I would like to make these state-of-the-art analysis methods accessible to biologists working with microscopy images. To achieve this, I develop customized and automated data analysis and visualization pipelines and train scientists to use them in their quantitative microscopy projects. My work is funded by the Chan Zuckerberg Initiative (CZI) Imaging Scientist Program and as such I am committed to providing access to analysis tools and resources to improve data and metadata handling, quality control, sharing and reproducibility. Finally, I am passionate about teaching microscopy and programming on all levels—from third graders to postdocs.",
+      "photo": "assets/images/staff/62f3e3840d180f1b39174a84_kmk_microscope.jpg"
+    },
+    {
+      "name": "Iana Vasylieva",
+      "role": "Research Instructor",
+      "email": "IAV7@pitt.edu",
+      "nih": "https://www.ncbi.nlm.nih.gov/myncbi/iaroslavna.vasylieva.1/bibliography/public/",
+      "bio": "At CBI, our high-throughput imaging platforms generate exceptionally large and complex datasets, often reaching dozens of terabytes. My work focuses on automating the data acquisition and analysis pipelines needed to handle this scale. Because these datasets demand specialized high-performance computing solutions, I develop tools that enable efficient and reproducible quantitative analysis. Drawing on my experience in web development, I aim to make these advanced computational methods easily accessible to collaborators through intuitive browser-based interfaces and workflow systems. Across collaborations at Pitt and beyond, I assist investigators in tackling a wide range of big-data challenges in volumetric whole-organ imaging. Through our involvement in the Brain Image Library, we support BRAIN Initiative researchers in transferring, managing, and analyzing microscopy datasets — from mouse to whole human brains — reaching petabyte scales. We help drive discoveries about brain function and disease, including addiction, neurodegeneration, and encephalitis, at the level of the entire brain.",
+      "photo": "assets/images/staff/62016c444ec43fb3861b9d49_Iana.jpg"
+    }
+  ],
+  "staff": [
+    {
+      "name": "Greg Gibson",
+      "role": "Senior Lab Manager Live cell and multiphoton microscopy",
+      "email": "gagst18@pitt.edu",
+      "photo": "assets/images/staff/6006e5c0f8c2d03c6230ee94_greg202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Mark Ross",
+      "role": "Light Lab Manager Immunofluorescence and confocal microscopy.",
+      "email": "mross@pitt.edu",
+      "photo": "assets/images/staff/6006e5b58734336a7885a739_mark202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Jonathan Franks",
+      "role": "Electron Microscopy Lab Manager SEM and TEM imaging",
+      "email": "jonnysax@gmail.com",
+      "photo": "assets/images/staff/6006e583e2a26f15e57428dd_jonathan202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Mara Sullivan",
+      "role": "Research Specialist TEM training",
+      "email": "grove@pitt.edu",
+      "photo": "assets/images/staff/6006e57b8c651e791e2ed33d_mara202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Callen Wallace",
+      "role": "Research Specialist Super Resolution imaging",
+      "email": "callenwall@gmail.com",
+      "photo": "assets/images/staff/600ed7b718355159a69c20fe_callen202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Mike Calderon",
+      "role": "Research Specialist",
+      "email": "mjc136@pitt.edu",
+      "photo": "assets/images/staff/5fff5c9d4a50ad471bb55dcd_mike202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Katherine Helfrich",
+      "role": "Research Specialist",
+      "email": "keh189@pitt.edu",
+      "photo": "assets/images/staff/60008e161b2751d9ebb9b59c_kath202020_08_122002_26_4220UTC.jpg"
+    },
+    {
+      "name": "Reese Smith",
+      "role": "Research Specialist",
+      "email": "reese.smith@pitt.edu",
+      "photo": "assets/images/staff/60086741edd39241ee177514_meganS.jpg"
+    },
+    {
+      "name": "Lauren Wolf",
+      "role": "Research Specialist TEM Training",
+      "email": "LAW181@pitt.edu",
+      "photo": "assets/images/staff/68bb0777dad0e90f6d6454d1_lauren.jpg"
+    },
+    {
+      "name": "Kelin He",
+      "role": "Software Developer",
+      "email": "keh229@pitt.edu",
+      "photo": "assets/images/staff/66101b0b233b3c5c0067073f_Kelin.jpg"
+    }
+  ]
+}

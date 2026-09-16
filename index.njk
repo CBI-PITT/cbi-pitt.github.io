@@ -1,0 +1,55 @@
+---
+title: Home
+layout: base
+permalink: /
+---
+<section class="home-hero">
+  <div class="kicker">University of Pittsburgh · Center for Biologic Imaging</div>
+  <h1>Science you<br>can <em>see</em>.</h1>
+  <p class="lede">One of the largest microscope-based imaging centers in the US — almost all light and electron optical equipment, and the expertise to build what we don't have.</p>
+  <div class="home-hero-actions">
+    <a class="btn btn-primary" href="{{ '/equipment.html' | url }}">Explore Equipment</a>
+    <a class="btn btn-ghost" href="{{ '/gallery.html' | url }}">View Gallery</a>
+    <a class="btn btn-ghost" href="{{ site.external.scheduler }}" target="_blank" rel="noopener">Scheduler ↗</a>
+  </div>
+</section>
+
+<section class="fact-row reveal">
+  <div class="fact"><div class="n">41</div><div class="l">Instruments across three access tiers</div></div>
+  <div class="fact"><div class="n">6,500</div><div class="l">sq ft of dedicated imaging space</div></div>
+  <div class="fact"><div class="n">~2,000</div><div class="l">researchers served each year</div></div>
+  <div class="fact"><div class="n">4 + 14</div><div class="l">Faculty and staff, on hand to help</div></div>
+</section>
+
+<section class="mission reveal">
+  <div class="mission-text">
+    <h2>Our <em>Mission</em></h2>
+    <p>The CBI is one of the largest microscope based imaging centers in the US, equipped with almost all light and electron optical equipment and expertise. If we don't actually have the needed equipment or assay we can generally <strong>build it</strong>.</p>
+    <p>The Center is <strong>not a traditional fee for service core facility</strong> — in almost every situation we work with research groups to build mutually funded scientific enterprise. While we can act as a fee for service resource if absolutely necessary, we avoid it as much as possible.</p>
+    <p>For the workings of the Center to be appropriately described, <strong>initial contact should always be between the PI of the research group and one of the Center faculty</strong> — see the <a href="{{ '/staffpage.html' | url }}">faculty contact page</a>. For a limited description of some of the platforms available in the Center, see the resources pages.</p>
+  </div>
+  <div class="mission-art">
+    {% if site.hero_image %}<img src="{{ site.hero_image | asset | url }}" alt="Surface rendering — fluorescence micrograph">{% endif %}
+  </div>
+</section>
+
+<section class="news-section">
+  <div class="news-head">
+    <h2>CBI <em>news</em></h2>
+  </div>
+  <div class="news-grid">
+    {% for post in collections.news %}
+    <article class="news-card reveal">
+      <div class="thumb">
+        {% if post.data.image %}<a href="{{ post.url | url }}"><img src="{{ post.data.image | asset | url }}" alt="{{ post.data.title }}" loading="lazy"></a>{% endif %}
+      </div>
+      <div class="body">
+        <div class="date">{{ post.data.date | displayDate }}</div>
+        <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+        {% if post.templateContent %}<p>{{ post.templateContent | truncate(140) }}</p>{% endif %}
+        <div class="more">Read more →</div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

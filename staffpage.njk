@@ -1,0 +1,44 @@
+---
+title: Faculty & Staff
+layout: base
+permalink: /staffpage.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Faculty <em>&amp;</em> Staff</h1>
+  <p class="page-sub">New user? Please contact our center director, Simon Watkins. Already a user and interested in starting or expanding a project? Discuss it with your primary contact.</p>
+</section>
+
+<h2 class="section-title">Faculty</h2>
+{% for person in staff.faculty %}
+<article class="faculty-card reveal">
+  <div class="photo">
+    {% if person.photo %}<img src="{{ person.photo | asset | url }}" alt="{{ person.name }}" loading="lazy">{% endif %}
+  </div>
+  <div>
+    <h3>{{ person.name }}</h3>
+    <div class="role">{{ person.role }}</div>
+    <p class="bio">{{ person.bio }}</p>
+    <div class="faculty-links">
+      {% if person.email %}<a class="chip" href="mailto:{{ person.email }}">✉ {{ person.email }}</a>{% endif %}
+      {% if person.nih %}<a class="chip" href="{{ person.nih }}" target="_blank" rel="noopener">NIH Bibliography ↗</a>{% endif %}
+    </div>
+  </div>
+</article>
+{% endfor %}
+
+<h2 class="section-title">Staff <em>&amp;</em> Student Workers</h2>
+<div class="staff-grid">
+  {% for person in staff.staff %}
+  <div class="person-card reveal">
+    {% if person.photo %}<img src="{{ person.photo | asset | url }}" alt="{{ person.name }}" loading="lazy">{% endif %}
+    <h4>{{ person.name }}</h4>
+    <div class="role">{{ person.role }}</div>
+    {% if person.email %}<a href="mailto:{{ person.email }}">{{ person.email }}</a>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<p style="margin-top:34px;color:var(--muted);font-size:14.5px;">
+  LM lab: <a href="tel:{{ site.phones.lm }}">{{ site.phones.lm }}</a> &nbsp;·&nbsp; EM lab: <a href="tel:{{ site.phones.em }}">{{ site.phones.em }}</a>
+</p>

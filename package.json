@@ -1,0 +1,13 @@
+{
+  "name": "cbiweb",
+  "version": "1.0.0",
+  "description": "Center for Biologic Imaging - University of Pittsburgh. Static site built with Eleventy.",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

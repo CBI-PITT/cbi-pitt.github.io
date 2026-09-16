@@ -1,0 +1,26 @@
+---
+title: Protocols
+layout: base
+permalink: /protocols.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Protocols <em>&amp;</em> training</h1>
+  <p class="page-sub">These Center for Biological Imaging protocols and training PDFs are for general reference <strong style="color:var(--text)">ONLY</strong>. Please contact a CBI staff member with any questions about your specific experiment — they can provide a protocol and training specific to your project.</p>
+</section>
+
+{% for section in protocols %}
+<h2 class="section-title">{{ section.title }}</h2>
+<div class="doc-grid">
+  {% for item in section.items %}
+  <article class="doc-card reveal">
+    {% if item.image %}<div class="art" style=\"background-image: url('{{ item.image | asset | url }}')\"></div>{% endif %}
+    <div class="body">
+      <h3>{{ item.title }}</h3>
+      {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+      <a class="btn btn-ghost dl" href="{{ item.file | asset | url }}" target="_blank" rel="noopener">Download ↓</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endfor %}

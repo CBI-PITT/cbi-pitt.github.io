@@ -1,0 +1,333 @@
+{
+  "covers": [
+    "assets/images/covers/63ebd5b9d6635bf4ca006d19_Gandhi.jpg",
+    "assets/images/covers/63dc4aaee6decd093b2ddb0c_67.jpg",
+    "assets/images/covers/63dc4a65eeb59d7ec2641863_62.jpg",
+    "assets/images/covers/63dc4a5d6b8ffdefb400eb8f_60.jpg",
+    "assets/images/covers/63dc4a21c938361a92453ce1_57.jpg",
+    "assets/images/covers/63dc4a18c9b7c7a696ef15fd_56.jpg",
+    "assets/images/covers/63dc49fccb4f49d98a714685_49.jpg",
+    "assets/images/covers/63dc49da44eece33297fdb15_34.jpg",
+    "assets/images/covers/63dc4d9bc9b7c7fc27ef5daf_10.jpg",
+    "assets/images/covers/63dc49a644eece62d17fd852_09.jpg",
+    "assets/images/covers/63db3c2f755901219164a4ce_08.jpg",
+    "assets/images/covers/63dc4990e6decd7ce72dcb28_04.jpg"
+  ],
+  "featured": [
+    {
+      "title": "Continuous Microfiber Wire Mandrel-Less Biofabrication for Soft Tissue Engineering Applications",
+      "authors": "Arianna Adamo, Joseph G. Bartolacci, Drake D. Pedersen, Marco G. Traina, Seungil Kim, Antonio Pantano, Giulio Ghersi, Simon C. Watkins, William R. Wagner, Stephen F. Badylak, and Antonio D’Amore",
+      "pdf": "assets/docs/63e6d6462b69fa8c6a32c536_68.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d62321f7cc33cb70969f_68.jpg"
+    },
+    {
+      "title": "Hepatocytes Are Resistant to Cell Death From Canonical and Non-Canonical Inflammasome-Activated Pyroptosis",
+      "authors": "Ping Sun, Jie Zhong, Hong Liao, Patricia Loughran, Joud Mulla, Guang Fu, Da Tang, Jie Fan, Timothy R. Billiar, Wentao Gao, and Melanie J. Scott",
+      "pdf": "assets/docs/63e6d6b627389ffc3da3ef96_70.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d6821eb4ad1bbec65375_70.jpg"
+    },
+    {
+      "title": "P-selectin–deficient mice to study pathophysiology of sickle cell disease",
+      "authors": "Margaret F. Bennewitz, Egemen Tutuncuoglu, Shweta Gudapati, Tomasz Brzoska, Simon C. Watkins, Satdarshan P. Monga, Tirthadipa Pradhan-Sundd,and Prithu Sundd",
+      "pdf": "assets/docs/63e6d6fa2b69fadeee32d220_71.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d6cc2d655344c65619c0_72.jpg"
+    },
+    {
+      "title": "Modeling Therapeutic Antibody–Small Molecule Drug-Drug Interactions Using a Three-Dimensional Perfusable Human Liver Coculture Platform",
+      "authors": "Thomas J. Long, Patrick A. Cosgrove, Robert T. Dunn, II, Donna B. Stolz, Hisham Hamadeh, Cynthia Afshari, Helen McBride, and Linda G. Griffith",
+      "pdf": "assets/docs/63e6d67427389f6069a3ee06_69.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d6532b69fa701132c638_69.jpg"
+    },
+    {
+      "title": "Skeletal Muscle Triacylglycerol Hydrolysis Does Not Influence Metabolic Complications of Obesity",
+      "authors": "Mitch T. Sitnick, Mahesh K. Basantani, Lingzhi Cai, Gabriele Schoiswohl, Cynthia F. Yazbeck, Giovanna Distefano, Vladimir Ritov, James P. DeLany, Renate Schreiber, Donna B. Stolz, Noah P. Gardner, Petra C. Kienesberger, Thomas Pulinilkunnil, Rudolf Zechner, Bret H. Goodpaster, Paul Coen, and Erin E. Kershaw",
+      "pdf": "assets/docs/63e6d5d327389fc8e6a3e84d_59.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d59a9ac87053afee8efa_59.jpg"
+    },
+    {
+      "title": "CD14 contributes to warm hepatic ischemia-reperfusion injury in mice",
+      "authors": "Changchun Cai, Xiaolian Shi, Sebastian Korff, Jinxiang Zhang, Patricia A Loughran, Xiangcai Ruan, Yong Zhang, Li Liu, and Timothy R. Billiar",
+      "pdf": "assets/docs/63e6d584476e8d0af0fe5e9c_58.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d7bbb6df3b6c5de8383d_58.jpg"
+    },
+    {
+      "title": "The Tyrosine Phosphatase SHP2 Regulates Sertoli Cell Junction Complexes",
+      "authors": "Pawan Puri and William H. Walker",
+      "pdf": "assets/docs/63e6d4bec7272e45a67d0cd8_54.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d48c5cc9360fe2abf6a1_54.jpg"
+    },
+    {
+      "title": "Automated imaging system for fast quantitation of neurons, cell morphology and neurite morphometry in vivo and in vitro",
+      "authors": "Victor Tapias, J. Timothy Greenamyre, Simon C. Watkins",
+      "pdf": "assets/docs/63e6d50c60afc2479b842822_55.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d4d05cc9367c44ac0136_55.jpg"
+    },
+    {
+      "title": "Dendritic Cells Promote Macrophage Infiltration and Comprise a Substantial Proportion of Obesity-Associated Increases in CD11c+ Cells in Adipose Tissue and Liver",
+      "authors": "Maja Stefanovic-Racic, Xiao Yang, Michael S. Turner, Benjamin S. Mantell,1 Donna B. Stolz, Tina L. Sumpter, Ian J. Sipula, Nikolaos Dedousis, Donald K. Scott, Penelope A. Morel, Angus W. Thomson, and Robert M. O’Doherty",
+      "pdf": "assets/docs/63e6d42138ea54a33612480e_51.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d3d9db85c2451b6ac9a1_51.jpg"
+    },
+    {
+      "title": "Inhibiting Systemic Autophagy during Interleukin 2 Immunotherapy Promotes Long-term Tumor Regression",
+      "authors": "Xiaoyan Liang , Michael E. De Vera , William J. Buchser , Antonio Romo de Vivar Chavez, Patricia Loughran, Donna Beer Stolz , Per Basse , Tao Wang, Bennett Van Houten, Herbert J. Zeh III , and Michael T. Lotze",
+      "pdf": "assets/docs/63e6d3c58cfec2450753670c_50.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d385cde80f1b3c4a991d_50.jpg"
+    },
+    {
+      "title": "Mitochondrial hyperfusion induced by loss of the fission protein Drp1 causes ATM-dependent G2/M arrest and aneuploidy through DNA replication stress",
+      "authors": "Wei Qian, Serah Choi, Gregory A. Gibson, Simon C. Watkins, Christopher J. Bakkenist and Bennett Van Houten",
+      "pdf": "assets/docs/63e6d46c037f3b1da7ae13fe_53.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d43aeaf853269437fa2f_53.jpg"
+    },
+    {
+      "title": "Mechanism of transfer of functional microRNAs between mouse dendritic cells via exosomes",
+      "authors": "Angela Montecalvo, Adriana T. Larregina, William J. Shufesky, Donna Beer Stolz, Mara L. G. Sullivan, Jenny M. Karlsson, Catherine J. Baty, Gregory A. Gibson, Geza Erdos, Zhiliang Wang, Jadranka Milosevic, Olga A. Tkacheva, Sherrie J. Divito, Rick Jordan, James Lyons-Weiler, Simon C. Watkins, and Adrian E. Morelli",
+      "pdf": "assets/docs/63e6d370bc6a9a817092e13a_48.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d2e78cfec23fd0535548_48.jpg"
+    },
+    {
+      "title": "Nature Clinical Collections July 2011",
+      "authors": "Kelly J Shields PhD, Donna Stolz PhD, Jonathan Franks, MS, Simon C Watkins PhD, Joseph M Ahearn MD",
+      "pdf": "assets/docs/63e6d292a617a24a401ac10e_46.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d23d1eb4ad3031c60cf9_46.jpg"
+    },
+    {
+      "title": "Complement Proteins C3 and C4 Bind to Collagen and Elastin in the Vascular Wall: A Potential Role in Vascular Stiffness and Atherosclerosis",
+      "authors": "Kelly J. Shields , Ph.D., Donna Stolz , Ph.D. , Simon C. Watkins , Ph.D. , and Joseph M. Ahearn , M.D.",
+      "pdf": "assets/docs/63e6d2d8476e8d2a37fe25bd_47.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d29f38ea5464d0121ffc_47.jpg"
+    },
+    {
+      "title": "A ‘‘tool box’’ for rational design of degradable controlled release formulations",
+      "authors": "Sam N. Rothsteinab and Steven R. Little",
+      "pdf": "assets/docs/63e6d22c2d655304a055a4eb_45.pdf",
+      "abstract": "",
+      "cover": "assets/images/covers/63e6d1efbc6a9ad25292c7f8_45.jpg"
+    }
+  ],
+  "list": [
+    {
+      "title": "Continuous Microfiber Wire Mandrel-Less Biofabrication for Soft Tissue Engineering Applications",
+      "pdf": "assets/docs/63e6d6462b69fa8c6a32c536_68.pdf"
+    },
+    {
+      "title": "Hepatocytes Are Resistant to Cell Death From Canonical and Non-Canonical Inflammasome-Activated Pyroptosis",
+      "pdf": "assets/docs/63e6d6b627389ffc3da3ef96_70.pdf"
+    },
+    {
+      "title": "P-selectin–deficient mice to study pathophysiology of sickle cell disease",
+      "pdf": "assets/docs/63e6d6fa2b69fadeee32d220_71.pdf"
+    },
+    {
+      "title": "Modeling Therapeutic Antibody–Small Molecule Drug-Drug Interactions Using a Three-Dimensional Perfusable Human Liver Coculture Platform",
+      "pdf": "assets/docs/63e6d67427389f6069a3ee06_69.pdf"
+    },
+    {
+      "title": "Skeletal Muscle Triacylglycerol Hydrolysis Does Not Influence Metabolic Complications of Obesity",
+      "pdf": "assets/docs/63e6d5d327389fc8e6a3e84d_59.pdf"
+    },
+    {
+      "title": "CD14 contributes to warm hepatic ischemia-reperfusion injury in mice",
+      "pdf": "assets/docs/63e6d584476e8d0af0fe5e9c_58.pdf"
+    },
+    {
+      "title": "The Tyrosine Phosphatase SHP2 Regulates Sertoli Cell Junction Complexes",
+      "pdf": "assets/docs/63e6d4bec7272e45a67d0cd8_54.pdf"
+    },
+    {
+      "title": "Automated imaging system for fast quantitation of neurons, cell morphology and neurite morphometry in vivo and in vitro",
+      "pdf": "assets/docs/63e6d50c60afc2479b842822_55.pdf"
+    },
+    {
+      "title": "Dendritic Cells Promote Macrophage Infiltration and Comprise a Substantial Proportion of Obesity-Associated Increases in CD11c+ Cells in Adipose Tissue and Liver",
+      "pdf": "assets/docs/63e6d42138ea54a33612480e_51.pdf"
+    },
+    {
+      "title": "Inhibiting Systemic Autophagy during Interleukin 2 Immunotherapy Promotes Long-term Tumor Regression",
+      "pdf": "assets/docs/63e6d3c58cfec2450753670c_50.pdf"
+    },
+    {
+      "title": "Mitochondrial hyperfusion induced by loss of the fission protein Drp1 causes ATM-dependent G2/M arrest and aneuploidy through DNA replication stress",
+      "pdf": "assets/docs/63e6d46c037f3b1da7ae13fe_53.pdf"
+    },
+    {
+      "title": "Mechanism of transfer of functional microRNAs between mouse dendritic cells via exosomes",
+      "pdf": "assets/docs/63e6d370bc6a9a817092e13a_48.pdf"
+    },
+    {
+      "title": "Nature Clinical Collections July 2011",
+      "pdf": "assets/docs/63e6d292a617a24a401ac10e_46.pdf"
+    },
+    {
+      "title": " Complement Proteins C3 and C4 Bind to Collagen and Elastin in the Vascular Wall: A Potential Role in Vascular Stiffness and Atherosclerosis",
+      "pdf": "assets/docs/63e6d2d8476e8d2a37fe25bd_47.pdf"
+    },
+    {
+      "title": "A ‘‘tool box’’ for rational design of degradable controlled release formulations",
+      "pdf": "assets/docs/63e6d22c2d655304a055a4eb_45.pdf"
+    },
+    {
+      "title": "Serpins Flex Their Muscle I. PUTTING THE CLAMPS ON PROTEOLYSIS IN DIVERSE BIOLOGICAL SYSTEMS",
+      "pdf": "assets/docs/63e6d1df8b0aad05059da9fa_44.pdf"
+    },
+    {
+      "title": "A proteome investigation of roxarsone degradation by Alkaliphilus oremlandii strain OhILAs",
+      "pdf": "assets/docs/63e6d1a4eaf853b1c037e02f_43.pdf"
+    },
+    {
+      "title": "Ethyl pyruvate decreases HMGB1 release and ameliorates murine colitis",
+      "pdf": "assets/docs/63e2e6dea77e605506f9aab6_25.pdf"
+    },
+    {
+      "title": "The Werner Syndrome Protein Functions in Repair of Cr(VI)-Induced Replication-Associated DNA Damage",
+      "pdf": "assets/docs/63e6d0e4a617a25e401a9f48_41.pdf"
+    },
+    {
+      "title": "Hana No Hana: Artist's Statement",
+      "pdf": "assets/docs/63d6fe7b82135c34ea9e38bc_01.pdf"
+    },
+    {
+      "title": "Sinusoidal Endothelial Cell Repopulation Following Ischemia/Reperfusion Injury in Rat Liver Transplantation",
+      "pdf": "assets/docs/63e2e2d7107e72e491948f05_16.pdf"
+    },
+    {
+      "title": "An Intracellular Serpin Regulates Necrosis by Inhibiting the Induction and Sequelae of Lysosomal Injury",
+      "pdf": "assets/docs/63db3be78545e14ccd972913_07.pdf"
+    },
+    {
+      "title": "Dendritic cell image on cover taken by Stuart Shand",
+      "pdf": "assets/docs/63e2e3cc149ffd04c5551c41_18.pdf"
+    },
+    {
+      "title": "Proteolysis Consistent with Activation of Caspase-7 after Severe Traumatic Brain Injury in Humans",
+      "pdf": "assets/docs/63e2e7f685a50c8189eb8485_27.pdf"
+    },
+    {
+      "title": "Essential Role of Integrin-Linked Kinase in Podocyte Biology: Bridging the Integrin and Slit Diaphragm Signaling",
+      "pdf": "assets/docs/63e2e434e8fc59bda062c281_19.pdf"
+    },
+    {
+      "title": "3D-confocal structural analysis of bone marrow-derived renal tubular cells during renal ischemia/reperfusion injury",
+      "pdf": "assets/docs/63e2e89c0f248477fe916760_29.pdf"
+    },
+    {
+      "title": "A “Model” Model System To Study Neurodegeneration",
+      "pdf": "assets/docs/63e2ea36f6335a21b9e52c6a_32.pdf"
+    },
+    {
+      "title": "Functional Connectivity between Immune Cells Mediated by Tunneling Nanotubules",
+      "pdf": "assets/docs/63e2e34c67358deac14bd6c5_17.pdf"
+    },
+    {
+      "title": "The Role of Hepatic Type 1 Plasminogen Activator Inhibitor (PAI-1) During Murine Hemorrhagic Shock",
+      "pdf": "assets/docs/63db3ebee8041714115554e7_15.pdf"
+    },
+    {
+      "title": "Imaging of Biological Systems with Fluorescent Technologies",
+      "pdf": "assets/docs/63e6d05d8b0aad55519d8e3d_39.pdf"
+    },
+    {
+      "title": "Physical and functional association of migfilin with cell-cell adhesions",
+      "pdf": "assets/docs/63e2e587d05c8efab1d0cb8f_22.pdf"
+    },
+    {
+      "title": "Gene Combination Transfer to Block Autoimmune Damage in Transplanted Islets of Langerhans",
+      "pdf": "assets/docs/63db3d720318298efa76dce9_11.pdf"
+    },
+    {
+      "title": "Adenoviral Gene Transfer of the Human Inducible Nitric Oxide Synthase Gene Enhances the Radiation Response of Human Colorectal Cancer Associated with Alterations in Tumor Vascularity",
+      "pdf": "assets/docs/63d700422fb109501791f843_05.pdf"
+    },
+    {
+      "title": "Rapid and extensive membrane reorganization by dendritic cells following exposure to bacteria revealed by high\u0002resolution imaging",
+      "pdf": "assets/docs/63e2e62c85a306a9cf64c297_23.pdf"
+    },
+    {
+      "title": "Intratumoral Delivery of Dendritic Cells Engineered to Secrete Both Interleukin (IL)-12 and IL-18 Effectively Treats Local and Distant Disease in Association with Broadly Reactive Tc1-type Immunity1",
+      "pdf": "assets/docs/63d70086debdd5dfe29e5d79_06.pdf"
+    },
+    {
+      "title": "Confocal image of ileum stained for F - actin (TRITC - phalloidin, red), nuclei (Hoechst, white), tubulin (blue) and laminin (green)",
+      "pdf": "assets/docs/63d6ffb40468795c799eb642_03.pdf"
+    },
+    {
+      "title": "Carbon Monoxide Inhalation Protects Rat Intestinal Grafts from Ischemia/Reperfusion Injury",
+      "pdf": "assets/docs/63d6ff58883e4569c71c9940_02.pdf"
+    },
+    {
+      "title": "Intra-mitochondrial Poly(ADP-ribosylation) Contributes to NAD\u0001 Depletion and Cell Death Induced by Oxidative Stress",
+      "pdf": "assets/docs/63e2e4953f9febbd090671ef_20.pdf"
+    },
+    {
+      "title": "CHARACTERIZATION OF THE EXPRESSION OF INDUCIBLE NITRIC OXIDE SYNTHASE IN RAT AND HUMAN LIVER DURING HEMORRHAGIC SHOCK",
+      "pdf": "assets/docs/63e6d0ab8cfec2d7715319a2_40.pdf"
+    },
+    {
+      "title": "Lipid-Mediated Delivery of Oligonucleotide to Pulmonary Endothelium",
+      "pdf": "assets/docs/63e6d00ebe8e5c444bb482ec_38.pdf"
+    },
+    {
+      "title": "Donna Stolz’s 1998 Christmas Card compiled with pseudo‐colored SEM images of pollen from her garden",
+      "pdf": "assets/docs/63e2e8e4769f5f627a41fb45_30.pdf"
+    },
+    {
+      "title": "Improved DNA/Emulsion Complex Stabilized by poly(ethylene glycol) Conjugated Phospholipid",
+      "pdf": "assets/docs/63e6ce7538ea54f20811be5b_36.pdf"
+    },
+    {
+      "title": "Changes in Wnt/β\u0001-Catenin Pathway During Regulated Growth in Rat Liver Regeneration",
+      "pdf": "assets/docs/63db3e78dc3ebf2bbd2fe545_14.pdf"
+    },
+    {
+      "title": "Sinusoidal Ultrastructure Evaluated During the Revascularization of Regenerating Rat Liver",
+      "pdf": "assets/docs/63db3dd68ec01ffbb2099045_13.pdf"
+    },
+    {
+      "title": "p27Kip1 Localizes to Detergent-insoluble Microdomains Within Lymphocyte Membranes",
+      "pdf": "assets/docs/63e6cd9c037f3bd926ad640e_33.pdf"
+    },
+    {
+      "title": "Expression of Inducible Nitric Oxide Synthase and Interleukin-12 in Experimental Necrotizing Enterocolitis",
+      "pdf": "assets/docs/63e2e85b35c0cfacfadd521f_28.pdf"
+    },
+    {
+      "title": "Endothelial nitric oxide synthase protects aortic allografts from the development of transplant arteriosclerosis.",
+      "pdf": "assets/docs/63e6d152db85c253726a9b4e_42.pdf"
+    },
+    {
+      "title": "Tumor’s other immune targets: dendritic cells",
+      "pdf": "assets/docs/63e2e66ce8fc59f9a662ea89_24.pdf"
+    },
+    {
+      "title": "Morphogenetic Events in Mixed Cultures of Rat Hepatocytes and Nonparenchymal Cells Maintained in Biological Matrices in the Presence of Hepatocyte Growth Factor and Epidermal Growth Factor",
+      "pdf": "assets/docs/63db3dc6cd460436cb57aa15_12.pdf"
+    },
+    {
+      "title": "Journal of Leukocyte Biology, Supplement 2, 1998.",
+      "pdf": "assets/docs/63e2e7abd7f4bf08881c461d_26.pdf"
+    },
+    {
+      "title": "Pitt Medcine, Fall 1997",
+      "pdf": "assets/docs/63e6cfac1eb4ad6f9fc5d1c0_37.pdf"
+    },
+    {
+      "title": "The Subcellular Distribution of Chromosome 6-encoded Dystrophin-related Protein in the Brain",
+      "pdf": "assets/docs/63e2e4e6d27cdf16755db88b_21.pdf"
+    }
+  ]
+}

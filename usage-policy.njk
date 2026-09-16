@@ -1,0 +1,39 @@
+---
+title: Usage Policy
+layout: base
+permalink: /usage-policy.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Usage <em>policy</em></h1>
+  <p class="page-sub">Please read all the sections of our Usage Policy. Usage of our equipment means that you agree to all terms in our Usage Policy.</p>
+</section>
+
+<div class="policy-layout">
+  <aside class="policy-toc">
+    <div class="nav-label">Sections</div>
+    {% for section in usage_policy %}
+    <a href="#policy-{{ loop.index }}">{{ section.title }}</a>
+    {% endfor %}
+  </aside>
+
+  <div class="policy-body">
+    {% for section in usage_policy %}
+    <section class="policy-section reveal" id="policy-{{ loop.index }}">
+      <h2>{{ section.title }}</h2>
+      <div class="prose">
+        {% for line in section.body.split("\n") %}
+        {% set trimmed = line | trim %}
+        {% if trimmed %}
+        {% if trimmed | isDashItem %}
+        <div class="dash-item">{{ trimmed | stripDash | safe }}</div>
+        {% else %}
+        <p>{{ trimmed | safe }}</p>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</div>

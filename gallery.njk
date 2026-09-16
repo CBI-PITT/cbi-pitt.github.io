@@ -1,0 +1,20 @@
+---
+title: Gallery
+layout: base
+permalink: /gallery.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Image <em>gallery</em></h1>
+  <p class="page-sub">A selection of images collected at the Center — fluorescence, confocal, super-resolution and electron microscopy.</p>
+</section>
+
+<div class="masonry">
+  {% for item in gallery %}
+  {% if item.image %}
+  <figure class="masonry-item" data-lightbox data-caption="{{ item.alt }}">
+    <img src="{{ item.image | asset | url }}" alt="{{ item.alt }}" loading="lazy">
+  </figure>
+  {% endif %}
+  {% endfor %}
+</div>

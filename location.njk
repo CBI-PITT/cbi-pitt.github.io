@@ -1,0 +1,20 @@
+---
+title: Location
+layout: base
+permalink: /location.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Location <em>&amp;</em> facility map</h1>
+</section>
+
+<div class="map-grid">
+  {% for map in location.maps %}
+  {% if map %}<figure data-lightbox><img src="{{ map | asset | url }}" alt="CBI facility map {{ loop.index }}" loading="lazy"></figure>{% endif %}
+  {% endfor %}
+</div>
+
+<div class="prose reveal">
+  <p>Center for Biologic Imaging is housed in the medical research facility of the University of Pittsburgh Medical School in approximately <strong>6,500 sq ft of space</strong>. This space has been designed as a dedicated, state of the art imaging center, and has fully equipped microscopy suites, computer labs, and wet and dry bench space for light and electron microscopic preparations.</p>
+  <p>The center currently employs <strong>4 faculty and 14 staff</strong> including multiple post-doctoral fellows, students and technicians. As can be seen from our equipment list, we have an installed base of over 31 optical sectioning microscopes of different types, as well as multiple systems dedicated to super-resolution imaging, we also have several electron microscopes. Essentially the Center is designed to be a <strong>"one stop shop" for all optical imaging needs</strong>. For a full list of our equipment, please see our <a href="{{ '/equipment.html' | url }}">equipment page</a>.</p>
+</div>

@@ -1,0 +1,38 @@
+---
+title: Equipment
+layout: base
+permalink: /equipment.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Contact &amp; Resources</div>
+  <h1 class="page-title">Core <em>Equipment</em></h1>
+  <p class="page-sub">An installed base of 41 instruments across three access levels — from widefield and confocal systems to multiphoton, super-resolution and electron microscopy.</p>
+</section>
+
+<div class="filter-bar" role="group" aria-label="Filter equipment by access tier">
+  <button class="filter-pill active" data-tier="all">All equipment</button>
+  <button class="filter-pill" data-tier="core">Core — available 24/7</button>
+  <button class="filter-pill" data-tier="limited">Limited access</button>
+  <button class="filter-pill" data-tier="cbi">CBI only &amp; restricted</button>
+</div>
+
+<div class="equip-grid">
+  {% for item in equipment %}
+  {% set tierClass = "tier-core" if "Core" in item.tier else ("tier-limited" if "Limited" in item.tier else "tier-cbi") %}
+  {% set tierLabel = "Core · 24/7" if "Core" in item.tier else ("Limited access" if "Limited" in item.tier else "CBI only") %}
+  <article class="equip-card reveal {{ tierClass }}" data-tier="{{ 'core' if 'Core' in item.tier else ('limited' if 'Limited' in item.tier else 'cbi') }}">
+    <div class="thumb">
+      {% if item.image %}<img src="{{ item.image | asset | url }}" alt="{{ item.name }}" loading="lazy">{% endif %}
+    </div>
+    <div class="body">
+      <span class="tier-tag">{{ tierLabel }}</span>
+      <h3>{{ item.name }}</h3>
+      {% if item.description %}<div class="desc">{{ item.description }}</div>{% endif %}
+      <div class="meta">
+        {% if item.room %}<span class="room">Room {{ item.room }}</span>{% endif %}
+        {% if item.availability %}<span>{{ item.availability }}</span>{% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
