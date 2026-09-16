@@ -67,8 +67,9 @@
     if (!galleryItems.length) return;
     galleryIndex = (i + galleryItems.length) % galleryItems.length;
     var el = galleryItems[galleryIndex];
-    var src = el.getAttribute("data-full") || el.getAttribute("src") || "";
-    var alt = el.getAttribute("alt") || el.getAttribute("data-caption") || "";
+    var img = el.tagName === "IMG" ? el : el.querySelector("img");
+    var src = el.getAttribute("data-full") || (img && img.getAttribute("src")) || el.getAttribute("src") || "";
+    var alt = el.getAttribute("data-caption") || (img && img.getAttribute("alt")) || el.getAttribute("alt") || "";
     if (lbImg) {
       lbImg.src = src;
       lbImg.alt = alt;
