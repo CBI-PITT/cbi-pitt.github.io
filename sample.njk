@@ -12,9 +12,9 @@ permalink: /sample.html
 <div class="sample-grid">
   {% set protocols_data = protocols %}
   {% for item in [
-    {"title": "EM Sample", "desc": "Electron microscopy sample submission form.", "file": "assets/docs/6022a059dc4b862cbbbafe34_EM.docx", "icon": "⚗"},
-    {"title": "LM Sample", "desc": "Light microscopy sample submission form.", "file": "assets/docs/6022a059a3b701b9f16546b3_LM.docx", "icon": "🔬"},
-    {"title": "Clearing Sample", "desc": "Tissue clearing sample submission form.", "file": "assets/docs/6022a0593573d07d5a1051f6_Clearing.docx", "icon": "🧫"}
+    {"title": "EM Sample", "desc": "Electron microscopy sample submission form.", "file": "assets/docs/em-sample-form.docx", "icon": "⚗"},
+    {"title": "LM Sample", "desc": "Light microscopy sample submission form.", "file": "assets/docs/lm-sample-form.docx", "icon": "🔬"},
+    {"title": "Clearing Sample", "desc": "Tissue clearing sample submission form.", "file": "assets/docs/clearing-sample-form.docx", "icon": "🧫"}
   ] %}
   {% if item.file %}
   <a class="sample-card reveal" href="{{ item.file | asset | url }}" download>

@@ -14,7 +14,7 @@
     "ilabs": "https://pitt.ilab.agilent.com/service_center/show_external/6790/cbi_electron_microscopy_lab",
     "video": "https://www.youtube.com/embed/XqrOEuVN_vA"
   },
-  "hero_image": "assets/images/misc/60087bffeec65e665ec3ccbf_Surface20rendering20sample2018x12.jpg",
-  "logo_cbi": "assets/images/misc/5ff3727a717937797f894bcc_CBI20logo202020_08_122002_26_4220UTC.png",
-  "logo_pitt": "assets/images/misc/5ff3b4c57010394e64c7d834_University_of_Pittsburgh_Logo_CMYK_Secondary_Reverse_2-Color202020_08_122002_26_4220UTC.png"
+  "hero_image": "assets/images/misc/surface-rendering-sample.jpg",
+  "logo_cbi": "assets/images/misc/cbi-logo.png",
+  "logo_pitt": "assets/images/misc/university-of-pittsburgh-logo.png"
 }

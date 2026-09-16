@@ -1,7 +1,7 @@
 ---
 title: "New microscopes in the CBI"
 date: 2026-09-03
-image: "assets/images/news/6a99c13901e5828243e07231_CrestSD_Crop.jpg"
+image: "assets/images/news/new-microscopes-in-the-cbi.jpg"
 permalink: /news/new-microscopes-in-the-cbi.html
 layout: base
 ---
