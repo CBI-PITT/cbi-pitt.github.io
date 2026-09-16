@@ -7,7 +7,7 @@
   <meta name="description" content="The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/news/placeholder.svg' | url }}">
 </head>
@@ -19,7 +19,6 @@
     <div class="sidebar-inner">
       <a href="{{ '/index.html' | url }}" class="brand">
         {% if site.logo_cbi %}<img src="{{ site.logo_cbi | asset | url }}" alt="CBI logo" class="brand-logo">{% endif %}
-        <span class="brand-text"><strong>Center for</strong><br>Biologic Imaging</span>
       </a>
 
       <nav class="nav">
@@ -69,10 +68,19 @@
       {% if date and title %}
       <article class="news-article reveal">
         <a href="{{ '/index.html' | url }}" class="crumb">← Back to all news</a>
-        {% if image %}<div class="news-hero"><img src="{{ image | asset | url }}" alt="{{ title }}"></div>{% endif %}
+        {% if image %}
+        <div class="news-hero"><img src="{{ image | asset | url }}" alt="{{ title }}"></div>
+        {% else %}
+        {% for p in collections.news %}
+        {% if p.url == page.url %}
+        {% set ph = '/assets/images/news/fluor-' ~ ((loop.index0 % 4) + 1) ~ '.svg' %}
+        <div class="news-hero"><img src="{{ ph | url }}" alt=""></div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
         <div class="news-article-meta">{{ date | displayDate }}</div>
         <h1 class="page-title">{{ title }}</h1>
-        <div class="prose"><p>{{ content | safe }}</p></div>
+        <div class="prose">{{ content | safe }}</div>
         {% if link %}<p><a class="btn btn-primary" href="{{ link }}" target="_blank" rel="noopener">Read more ↗</a></p>{% endif %}
       </article>
       {% else %}

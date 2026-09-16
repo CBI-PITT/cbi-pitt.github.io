@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="62"/>
+    </filter>
+    <filter id="core" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="17"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="48%" r="84%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#04070a" stop-opacity="0.85"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="#0a0e12"/>
+  <g filter="url(#soft)">
+    <ellipse cx="200" cy="360" rx="170" ry="130" fill="#ff2d95" opacity="0.32"/>
+    <ellipse cx="430" cy="160" rx="190" ry="140" fill="#00e5ff" opacity="0.34"/>
+    <ellipse cx="660" cy="340" rx="160" ry="120" fill="#3dff8f" opacity="0.30"/>
+    <ellipse cx="520" cy="120" rx="90" ry="70" fill="#7b5cff" opacity="0.24"/>
+  </g>
+  <g filter="url(#core)">
+    <ellipse cx="450" cy="190" rx="48" ry="40" fill="#b8feff" opacity="0.66"/>
+    <ellipse cx="240" cy="330" rx="42" ry="34" fill="#ffc2e2" opacity="0.6"/>
+    <ellipse cx="630" cy="320" rx="34" ry="28" fill="#d2ffe8" opacity="0.52"/>
+  </g>
+  <rect width="800" height="500" fill="url(#vig)"/>
+</svg>

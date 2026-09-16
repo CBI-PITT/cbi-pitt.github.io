@@ -6,7 +6,6 @@ permalink: /
 <section class="home-hero">
   <div class="kicker">University of Pittsburgh · Center for Biologic Imaging</div>
   <h1>Science you<br>can <em>see</em>.</h1>
-  <p class="lede">One of the largest microscope-based imaging centers in the US — almost all light and electron optical equipment, and the expertise to build what we don't have.</p>
   <div class="home-hero-actions">
     <a class="btn btn-primary" href="{{ '/equipment.html' | url }}">Explore Equipment</a>
     <a class="btn btn-ghost" href="{{ '/gallery.html' | url }}">View Gallery</a>
@@ -41,12 +40,17 @@ permalink: /
     {% for post in collections.news %}
     <article class="news-card reveal">
       <div class="thumb">
-        {% if post.data.image %}<a href="{{ post.url | url }}"><img src="{{ post.data.image | asset | url }}" alt="{{ post.data.title }}" loading="lazy"></a>{% endif %}
+        {% if post.data.image %}
+        <a href="{{ post.url | url }}"><img src="{{ post.data.image | asset | url }}" alt="{{ post.data.title }}" loading="lazy"></a>
+        {% else %}
+        {% set ph = '/assets/images/news/fluor-' ~ ((loop.index0 % 4) + 1) ~ '.svg' %}
+        <a href="{{ post.url | url }}"><img src="{{ ph | url }}" alt="" loading="lazy"></a>
+        {% endif %}
       </div>
       <div class="body">
         <div class="date">{{ post.data.date | displayDate }}</div>
         <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-        {% if post.templateContent %}<p>{{ post.templateContent | truncate(140) }}</p>{% endif %}
+        {% if post.templateContent %}<p>{{ post.templateContent | striptags | truncate(140) }}</p>{% endif %}
         <div class="more">Read more →</div>
       </div>
     </article>
