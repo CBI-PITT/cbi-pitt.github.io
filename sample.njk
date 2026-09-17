@@ -12,13 +12,13 @@ permalink: /sample.html
 <div class="sample-grid">
   {% set protocols_data = protocols %}
   {% for item in [
-    {"title": "EM Sample", "desc": "Electron microscopy sample submission form.", "file": "assets/docs/em-sample-form.docx", "icon": "⚗"},
-    {"title": "LM Sample", "desc": "Light microscopy sample submission form.", "file": "assets/docs/lm-sample-form.docx", "icon": "🔬"},
-    {"title": "Clearing Sample", "desc": "Tissue clearing sample submission form.", "file": "assets/docs/clearing-sample-form.docx", "icon": "🧫"}
+    {"title": "EM Sample", "desc": "Electron microscopy sample submission form.", "file": "assets/docs/em-sample-form.docx", "image": "assets/images/misc/tissue-standard-tem-protocol-art.jpg"},
+    {"title": "LM Sample", "desc": "Light microscopy sample submission form.", "file": "assets/docs/lm-sample-form.docx", "image": "assets/images/misc/cells-immunofluorescence-protocol-art.jpg"},
+    {"title": "Clearing Sample", "desc": "Tissue clearing sample submission form.", "file": "assets/docs/clearing-sample-form.docx", "image": "assets/images/misc/general-clearing-protocols-art.jpg"}
   ] %}
   {% if item.file %}
   <a class="sample-card reveal" href="{{ item.file | asset | url }}" download>
-    <span class="icon">{{ item.icon }}</span>
+    <span class="icon"><img src="{{ item.image | asset | url }}" alt="{{ item.title }} example image"></span>
     <h3>{{ item.title }}<br>submission form</h3>
     <p>{{ item.desc }}</p>
     <span class="btn btn-primary">Download .docx</span>

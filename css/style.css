@@ -580,6 +580,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 }
 .sample-card:hover { transform: translateY(-4px); border-color: rgba(61, 255, 143, 0.4); box-shadow: var(--shadow), 0 0 44px var(--glow-green); }
 .sample-card .icon { font-size: 30px; }
+.sample-card .icon img { width: 84px; height: 58px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line-strong); display: block; }
 .sample-card h3 { font-size: 19px; margin: 0; }
 .sample-card p { color: var(--muted); font-size: 14px; margin: 0; flex: 1; }
 .sample-links { display: flex; gap: 10px; }
