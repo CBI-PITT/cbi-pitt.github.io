@@ -1,0 +1,22 @@
+---
+title: Computing & Data
+layout: base
+permalink: /computing.html
+---
+<section class="page-hero">
+  <div class="eyebrow">{{ computing.eyebrow }}</div>
+  <h1 class="page-title">Computing <em>&amp;</em> data</h1>
+  <p class="page-sub">{{ computing.intro }}</p>
+</section>
+
+<h2 class="section-title">{{ computing.services_title | safe }}</h2>
+<div class="sample-grid">
+  {% for service in computing.services %}
+  <a class="sample-card reveal" href="{{ service.url }}" target="_blank" rel="noopener">
+    <span class="icon">{{ service.icon }}</span>
+    <h3>{{ service.name }}</h3>
+    <p>{{ service.description }}</p>
+    <span class="btn btn-primary">Open ↗</span>
+  </a>
+  {% endfor %}
+</div>
