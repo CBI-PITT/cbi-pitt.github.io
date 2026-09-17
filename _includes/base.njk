@@ -106,7 +106,7 @@
     <footer class="footer">
       <div class="footer-inner">
         <div class="footer-brand">
-          {% if site.logo_pitt %}<img src="{{ site.logo_pitt | asset | url }}" alt="University of Pittsburgh" class="footer-logo">{% endif %}
+          {% if site.logo_pitt %}<a href="{{ site.external.pitt }}" target="_blank" rel="noopener"><img src="{{ site.logo_pitt | asset | url }}" alt="University of Pittsburgh" class="footer-logo"></a>{% endif %}
           <div class="footer-tagline">{{ site.tagline }}</div>
         </div>
         <div class="footer-links">
