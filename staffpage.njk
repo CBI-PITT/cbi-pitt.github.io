@@ -7,6 +7,7 @@ permalink: /staffpage.html
   <div class="eyebrow">Contact &amp; Resources</div>
   <h1 class="page-title">Faculty <em>&amp;</em> Staff</h1>
   <p class="page-sub">New user? Please contact our center director, Simon Watkins. Already a user and interested in starting or expanding a project? Discuss it with your primary contact.</p>
+  <p class="page-sub">The CBI is a center within the <a href="{{ site.external.department }}" target="_blank" rel="noopener">Department of Cell Biology ↗</a>.</p>
 </section>
 
 <h2 class="section-title">Faculty</h2>
@@ -22,23 +23,25 @@ permalink: /staffpage.html
     <div class="faculty-links">
       {% if person.email %}<a class="chip" href="mailto:{{ person.email }}">✉ {{ person.email }}</a>{% endif %}
       {% if person.nih %}<a class="chip" href="{{ person.nih }}" target="_blank" rel="noopener">NIH Bibliography ↗</a>{% endif %}
+      {% if person.scholar %}<a class="chip" href="{{ person.scholar }}" target="_blank" rel="noopener">Google Scholar ↗</a>{% endif %}
+      {% if person.dept %}<a class="chip" href="{{ person.dept }}" target="_blank" rel="noopener">Dept profile ↗</a>{% endif %}
     </div>
   </div>
 </article>
 {% endfor %}
 
-<h2 class="section-title">Staff <em>&amp;</em> Student Workers</h2>
+<h2 class="section-title">Staff</h2>
 <div class="staff-grid">
   {% for person in staff.staff %}
   <div class="person-card reveal">
     {% if person.photo %}<img src="{{ person.photo | asset | url }}" alt="{{ person.name }}" loading="lazy">{% endif %}
     <h4>{{ person.name }}</h4>
     <div class="role">{{ person.role }}</div>
-    {% if person.email %}<a href="mailto:{{ person.email }}">{{ person.email }}</a>{% endif %}
+    {% if person.email %}<a class="chip" href="mailto:{{ person.email }}">✉ {{ person.email }}</a>{% endif %}
   </div>
   {% endfor %}
 </div>
 
-<p style="margin-top:34px;color:var(--muted);font-size:14.5px;">
-  LM lab: <a href="tel:{{ site.phones.lm }}">{{ site.phones.lm }}</a> &nbsp;·&nbsp; EM lab: <a href="tel:{{ site.phones.em }}">{{ site.phones.em }}</a>
+<p class="staff-phones">
+  LM lab: <a href="tel:{{ site.phones.lm }}">{{ site.phones.lm }}</a> &nbsp;·&nbsp; EM lab: <a href="tel:{{ site.phones.em }}">{{ site.phones.em }}</a> &nbsp;·&nbsp; Fax: {{ site.phones.fax }}
 </p>
