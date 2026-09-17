@@ -8,21 +8,25 @@
       "url": "https://www.kidneycenter.pitt.edu/",
       "description": "An NIDDK-funded national resource center (U54 DK137329) for kidney cell biology, physiology and pathobiology — its KIDNIT imaging core, co-directed by CBI's Simon Watkins, develops novel imaging tools built on CBI facilities.",
       "image": "assets/images/links/kidney.png",
-      "fit": "contain"
+      "fit": "contain",
+      "mediaBg": "transparent"
     },
     {
       "name": "Pittsburgh Liver Research Center",
       "url": "https://livercenter.pitt.edu/",
       "description": "An NIH-NIDDK P30-funded Digestive Diseases Research Core Center (P30 DK120531) supporting hepatic injury and repair research through pilot funding, scientific core facilities and community enrichment.",
       "image": "assets/images/links/plrc-icon.png",
-      "fit": "contain"
+      "fit": "contain",
+      "mediaBg": "transparent"
     },
     {
       "name": "UPMC Hillman Cancer Center",
       "url": "https://hillmanresearch.upmc.edu/",
       "description": "An NCI-designated Comprehensive Cancer Center — the only one in western Pennsylvania — where more than 300 researchers advance basic, translational, clinical and population science research.",
       "image": "assets/images/links/hillman-logo.svg",
-      "fit": "contain"
+      "fit": "contain",
+      "mediaBg": "transparent",
+      "maxWidth": "70%"
     },
     {
       "name": "Brain Image Library",
@@ -30,7 +34,7 @@
       "description": "The Brain Image Library is a BRAIN Initiative data archive of high-resolution microscopy - petabytes of open data across organisms, techniques, and scales, free for researchers everywhere.",
       "image": "assets/images/links/bil-logo.png",
       "fit": "contain",
-      "mediaBg": "#0d1218"
+      "mediaBg": "transparent"
     }
   ]
 }
