@@ -19,6 +19,7 @@ permalink: /training.html
     <div class="faculty-links">
       {% if person.email %}<a class="chip" href="mailto:{{ person.email }}">✉ {{ person.email }}</a>{% endif %}
       {% if person.nih %}<a class="chip" href="{{ person.nih }}" target="_blank" rel="noopener">NIH Bibliography ↗</a>{% endif %}
+      {% if person.scholar %}<a class="chip" href="{{ person.scholar }}" target="_blank" rel="noopener">Google Scholar ↗</a>{% endif %}
     </div>
   </div>
 </article>
