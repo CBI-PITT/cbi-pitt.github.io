@@ -17,7 +17,7 @@ permalink: /news-archive.html
     <div class="archive-body">
       <div class="date">{{ post.data.date | displayDate }}</div>
       <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-      {% if post.templateContent %}<p>{{ post.templateContent | striptags | truncate(220) }}</p>{% endif %}
+      {% if post.templateContent %}<p>{{ post.templateContent | excerpt(220) }}</p>{% endif %}
     </div>
   </article>
   {% endfor %}

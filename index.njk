@@ -51,7 +51,7 @@ permalink: /
       <div class="body">
         <div class="date">{{ post.data.date | displayDate }}</div>
         <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-        {% if post.templateContent %}<p>{{ post.templateContent | striptags | truncate(140) }}</p>{% endif %}
+        {% if post.templateContent %}<p>{{ post.templateContent | excerpt }}</p>{% endif %}
         <div class="more">Read more →</div>
       </div>
     </article>

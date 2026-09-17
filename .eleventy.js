@@ -17,6 +17,22 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("stripDash", (s) => (s || "").replace(/^- /, ""));
   eleventyConfig.addFilter("isDashItem", (s) => /^- /.test(s || ""));
 
+  eleventyConfig.addFilter("excerpt", (html, len = 140) => {
+    if (!html) return "";
+    const text = String(html)
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;|&apos;/g, "'")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (text.length <= len) return text;
+    return text.slice(0, len).replace(/\s+\S*$/, "").replace(/[.,;:!?]$/, "") + "…";
+  });
+
   eleventyConfig.addFilter("displayDate", (d) => {
     if (!d) return "";
     try {
