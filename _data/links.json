@@ -23,7 +23,8 @@
       "url": "https://www.psc.edu/",
       "description": "A joint CMU–Pitt facility enabling discovery since 1986, with HPC allocations on Bridges-2, Anton and Neocortex.",
       "image": "assets/images/links/psc-logo.jpg",
-      "fit": "contain"
+      "fit": "contain",
+      "mediaBg": "transparent"
     },
     {
       "name": "Brain Image Library",

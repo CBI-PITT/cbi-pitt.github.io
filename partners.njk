@@ -11,7 +11,8 @@ permalink: /partners.html
 
 <div class="partner-grid">
   {% for partner in partners.partners %}
-  <a class="partner-card reveal" href="{{ partner.url }}" target="_blank" rel="noopener">
+  <a class="partner-card link-card reveal" href="{{ partner.url }}" target="_blank" rel="noopener">
+    {% if partner.image %}<div class="link-card-media"{% if partner.mediaBg %} style="background: {{ partner.mediaBg }}"{% endif %}><img src="{{ partner.image | asset | url }}" alt="{{ partner.name }}" loading="lazy"{% if partner.fit %} style="object-fit: {{ partner.fit }}"{% endif %}></div>{% endif %}
     <h3>{{ partner.name }}</h3>
     <p>{{ partner.description }}</p>
     <span class="more">Visit ↗</span>
