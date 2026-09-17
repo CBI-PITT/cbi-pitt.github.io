@@ -14,7 +14,7 @@ permalink: /protocols.html
 <div class="doc-grid">
   {% for item in section.items %}
   <article class="doc-card reveal">
-    {% if item.image %}<div class="art" style=\"background-image: url('{{ item.image | asset | url }}')\"></div>{% endif %}
+    {% if item.image %}<div class="art" style="background-image: url('{{ item.image | asset | url }}')"></div>{% endif %}
     <div class="body">
       <h3>{{ item.title }}</h3>
       {% if item.description %}<p>{{ item.description }}</p>{% endif %}
