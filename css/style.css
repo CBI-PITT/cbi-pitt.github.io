@@ -188,9 +188,10 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
   background: linear-gradient(90deg, var(--cyan), var(--magenta));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
-.footer-links { display: flex; gap: 22px; font-size: 13.5px; }
+.footer-links { display: flex; align-items: center; gap: 22px; font-size: 13.5px; }
 .footer-links a { color: var(--muted); }
 .footer-links a:hover { color: var(--cyan); }
+.footer-links a[aria-label$="on GitHub"] { display: inline-flex; }
 .footer-copy { margin-left: auto; font-size: 12.5px; color: var(--faint); }
 
 /* ------------------------------------------------ page headers */
@@ -581,6 +582,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 .sample-card .icon { font-size: 30px; }
 .sample-card h3 { font-size: 19px; margin: 0; }
 .sample-card p { color: var(--muted); font-size: 14px; margin: 0; flex: 1; }
+.sample-links { display: flex; gap: 10px; }
 
 /* ------------------------------------------------ contact panel */
 .contact-panel {

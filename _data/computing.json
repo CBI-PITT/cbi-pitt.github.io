@@ -1,26 +1,27 @@
 {
-  "title": "Computing <em>&amp;</em> Data",
-  "eyebrow": "Contact & Resources",
+  "title": "Computing",
+  "eyebrow": "Resources",
   "intro": "The CBI operates its own high-performance computing infrastructure — petabytes of file storage, specialized cluster / grid computing platforms, and software which makes interacting with these resources simple for people with no experience using otherwise complex systems. Our web services put imaging data, analysis and annotation directly in the browser.",
   "services_title": "Web <em>services</em>",
   "services": [
     {
-      "name": "Brain API",
+      "name": "BrAInPI",
       "url": "https://brain-api.cbi.pitt.edu/",
+      "github": "https://github.com/CBI-PITT/BrAinPI",
       "description": "CBI's hosted data API.",
       "icon": "🧠"
-    },
-    {
-      "name": "PEACE",
-      "url": "https://peace.cbi.pitt.edu/",
-      "description": "CBI-hosted web service.",
-      "icon": "⚡"
     },
     {
       "name": "WEBKNOSSOS",
       "url": "https://wk.cbi.pitt.edu/",
       "description": "Web-based 3D annotation and visualization of large volumetric datasets — hosted at the CBI.",
       "icon": "🔬"
+    },
+    {
+      "name": "PEACE",
+      "url": "https://peace.cbi.pitt.edu/",
+      "description": "CBI-hosted web service.",
+      "icon": "⚡"
     }
   ]
 }
