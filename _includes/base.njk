@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>{% if title %}{{ title }} — {% endif %}{{ site.name }} · University of Pittsburgh</title>
   <meta name="description" content="The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/news/placeholder.svg' | url }}">
+  <link href="{{ '/assets/images/cbi-favicon-small.jpg' | url }}" rel="shortcut icon" type="image/x-icon">
+  <link href="{{ '/assets/images/cbi-favicon.jpg' | url }}" rel="shortcut icon" type="image/x-icon">
   {% if site.analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics }}"></script>
   <script>
