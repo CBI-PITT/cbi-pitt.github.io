@@ -15,7 +15,8 @@
       "url": "https://forum.image.sc/",
       "description": "The community forum for scientific imaging software — ImageJ/Fiji, napari and the broader community answer your analysis questions.",
       "image": "assets/images/links/image-sc.png",
-      "fit": "contain"
+      "fit": "contain",
+      "mediaBg": "transparent"
     },
     {
       "name": "Pittsburgh Supercomputing Center",
