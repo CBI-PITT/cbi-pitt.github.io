@@ -176,4 +176,41 @@
   } else {
     revealEls.forEach(function (el) { el.classList.add("visible"); });
   }
+
+  /* ---------------------------------------------- slideshows */
+  document.querySelectorAll("[data-slideshow]").forEach(function (box) {
+    var slides = box.querySelectorAll("img");
+    if (slides.length < 2) return;
+    var dots = box.querySelector("[data-slideshow-dots]");
+    var current = 0;
+    var timer = null;
+    function show(i) {
+      current = (i + slides.length) % slides.length;
+      slides.forEach(function (s, n) { s.classList.toggle("active", n === current); });
+      if (dots) {
+        dots.querySelectorAll("button").forEach(function (d, n) {
+          d.classList.toggle("active", n === current);
+        });
+      }
+    }
+    function start() {
+      stop();
+      timer = setInterval(function () { show(current + 1); }, 4000);
+    }
+    function stop() {
+      if (timer) { clearInterval(timer); timer = null; }
+    }
+    if (dots) {
+      slides.forEach(function (_, n) {
+        var b = document.createElement("button");
+        b.setAttribute("aria-label", "Slide " + (n + 1));
+        b.addEventListener("click", function () { show(n); start(); });
+        dots.appendChild(b);
+      });
+    }
+    show(0);
+    start();
+    box.addEventListener("mouseenter", stop);
+    box.addEventListener("mouseleave", start);
+  });
 })();
