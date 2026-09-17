@@ -26,18 +26,18 @@
       "mediaBg": "transparent"
     },
     {
-      "name": "Pittsburgh Supercomputing Center",
-      "url": "https://www.psc.edu/",
-      "description": "A joint CMU–Pitt facility enabling discovery since 1986, with HPC allocations on Bridges-2, Anton and Neocortex.",
-      "image": "assets/images/links/psc-logo.jpg",
-      "fit": "contain",
-      "mediaBg": "transparent"
-    },
-    {
       "name": "Brain Image Library",
       "url": "https://brainimagelibrary.org/",
       "description": "A BRAIN Initiative data archive of high-resolution microscopy — petabytes of open data, free for researchers everywhere.",
       "image": "assets/images/links/bil-logo.png",
+      "fit": "contain",
+      "mediaBg": "transparent"
+    },
+    {
+      "name": "Pittsburgh Supercomputing Center",
+      "url": "https://www.psc.edu/",
+      "description": "A joint CMU–Pitt facility enabling discovery since 1986, with HPC allocations on Bridges-2, Anton and Neocortex.",
+      "image": "assets/images/links/psc-logo.jpg",
       "fit": "contain",
       "mediaBg": "transparent"
     }
