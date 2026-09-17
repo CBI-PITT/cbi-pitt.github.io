@@ -147,6 +147,13 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
   background: linear-gradient(135deg, rgba(255, 45, 149, 0.16), rgba(255, 45, 149, 0.07));
   color: var(--magenta); border-color: rgba(255, 45, 149, 0.4);
 }
+.btn-purple {
+  background: linear-gradient(135deg, rgba(155, 107, 255, 0.16), rgba(155, 107, 255, 0.07));
+  color: #b18cff;
+  border-color: rgba(155, 107, 255, 0.4);
+  box-shadow: 0 0 24px rgba(155, 107, 255, 0.12), inset 0 0 12px rgba(155, 107, 255, 0.05);
+}
+.btn-purple:hover { box-shadow: 0 0 34px rgba(155, 107, 255, 0.25); border-color: #b18cff; }
 
 /* ------------------------------------------------ shell + topbar */
 .shell { margin-left: var(--sidebar-w); min-height: 100vh; display: flex; flex-direction: column; }
