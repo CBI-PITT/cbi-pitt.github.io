@@ -1,0 +1,20 @@
+---
+title: Partners
+layout: base
+permalink: /partners.html
+---
+<section class="page-hero">
+  <div class="eyebrow">{{ partners.eyebrow }}</div>
+  <h1 class="page-title">Research Partners</h1>
+  <p class="page-sub">{{ partners.intro }}</p>
+</section>
+
+<div class="partner-grid">
+  {% for partner in partners.partners %}
+  <a class="partner-card reveal" href="{{ partner.url }}" target="_blank" rel="noopener">
+    <h3>{{ partner.name }}</h3>
+    <p>{{ partner.description }}</p>
+    <span class="more">Visit ↗</span>
+  </a>
+  {% endfor %}
+</div>

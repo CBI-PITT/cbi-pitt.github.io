@@ -11,6 +11,7 @@
   "analytics": "G-CVZZ32SVVJ",
   "external": {
     "department": "https://www.cellbiology.pitt.edu/",
+    "github": "https://github.com/CBI-PITT",
     "scheduler": "https://scheduler.cbi.pitt.edu/calendar.html",
     "onedrive": "https://pitt-my.sharepoint.com/:f:/g/personal/cbi_pitt_edu/EgKAZCC_P8NMoOxE0Bz1Wx4BkVanT95LEjbcYVdBBdmDjw?e=i9a5mk",
     "globus": "https://app.globus.org/file-manager?origin_id=1bf48fb7-75c4-4768-b88f-c08b9d2ee3b4&origin_path=%2FopenShare%2F",

@@ -188,9 +188,10 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
   background: linear-gradient(90deg, var(--cyan), var(--magenta));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
-.footer-links { display: flex; gap: 22px; font-size: 13.5px; }
+.footer-links { display: flex; align-items: center; gap: 22px; font-size: 13.5px; }
 .footer-links a { color: var(--muted); }
 .footer-links a:hover { color: var(--cyan); }
+.footer-links a[aria-label$="on GitHub"] { display: inline-flex; }
 .footer-copy { margin-left: auto; font-size: 12.5px; color: var(--faint); }
 
 /* ------------------------------------------------ page headers */
@@ -534,6 +535,18 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 .prose li { margin-bottom: 6px; }
 
 .staff-phones { margin-top: 34px; color: var(--muted); font-size: 14.5px; }
+
+.partner-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-top: 34px; }
+.partner-card {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 10px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 26px 24px; color: var(--text);
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+}
+.partner-card:hover { transform: translateY(-4px); border-color: rgba(0, 229, 255, 0.4); box-shadow: var(--shadow), 0 0 44px var(--glow-cyan); text-decoration: none; }
+.partner-card h3 { font-size: 18px; margin: 0; }
+.partner-card p { color: var(--muted); font-size: 14px; margin: 0; flex: 1; }
+.partner-card .more { color: var(--cyan); font-size: 13.5px; }
 .policy-body p { margin: 0 0 12px; }
 .policy-body .dash-item { margin: 0 0 8px; padding-left: 14px; border-left: 2px solid rgba(0, 229, 255, 0.25); }
 
@@ -567,8 +580,10 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 }
 .sample-card:hover { transform: translateY(-4px); border-color: rgba(61, 255, 143, 0.4); box-shadow: var(--shadow), 0 0 44px var(--glow-green); }
 .sample-card .icon { font-size: 30px; }
+.sample-card .icon img { width: 84px; height: 58px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line-strong); display: block; }
 .sample-card h3 { font-size: 19px; margin: 0; }
 .sample-card p { color: var(--muted); font-size: 14px; margin: 0; flex: 1; }
+.sample-links { display: flex; gap: 10px; }
 
 /* ------------------------------------------------ contact panel */
 .contact-panel {
@@ -664,7 +679,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 @media (max-width: 640px) {
   .main { padding: 34px 20px 30px; }
   .footer-inner { padding: 30px 20px 36px; }
-  .card-grid, .equip-grid, .doc-grid, .news-grid, .sample-grid { grid-template-columns: 1fr; }
+  .card-grid, .equip-grid, .doc-grid, .news-grid, .sample-grid, .partner-grid { grid-template-columns: 1fr; }
   .staff-grid, .cover-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: 1fr; }
   .masonry { columns: 2 140px; }
