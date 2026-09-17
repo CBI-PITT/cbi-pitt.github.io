@@ -184,7 +184,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 .footer-logo { width: 145px; height: 46px; opacity: 0.9; }
 .footer-tagline {
   font-family: var(--font-display); font-style: italic; font-weight: 400;
-  font-size: 22px; letter-spacing: 0.01em;
+  font-size: 22px; letter-spacing: 0.01em; padding-right: 10px;
   background: linear-gradient(90deg, var(--cyan), var(--magenta));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
