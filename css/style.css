@@ -532,6 +532,8 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 .prose a { color: var(--cyan); }
 .prose ul { padding-left: 20px; margin: 0 0 14px; }
 .prose li { margin-bottom: 6px; }
+
+.staff-phones { margin-top: 34px; color: var(--muted); font-size: 14.5px; }
 .policy-body p { margin: 0 0 12px; }
 .policy-body .dash-item { margin: 0 0 8px; padding-left: 14px; border-left: 2px solid rgba(0, 229, 255, 0.25); }
 
