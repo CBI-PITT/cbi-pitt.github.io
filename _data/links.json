@@ -3,18 +3,25 @@
   "intro": "A curated set of tools, repositories and organizations we think every imager should know about.",
   "links": [
     {
-      "name": "mesoSPIM Initiative",
-      "url": "https://mesospim.org/",
-      "description": "Open-source light-sheet microscopes for imaging cleared tissue — the initiative behind the three MesoSPIMs built and used at the CBI.",
-      "image": "assets/images/links/mesospim-logo.png",
-      "fit": "contain",
-      "mediaBg": "transparent"
+      "name": "MicroscopyU",
+      "url": "https://www.microscopyu.com/",
+      "description": "Nikon's microscopy education resource — in-depth technique guides, tutorials and interactive calculators covering confocal, light sheet, super-resolution and more.",
+      "image": "assets/images/links/microscopyu-logo.png",
+      "fit": "contain"
     },
     {
       "name": "image.sc Forum",
       "url": "https://forum.image.sc/",
       "description": "The community forum for scientific imaging software — ImageJ/Fiji, napari and the broader community answer your analysis questions.",
       "image": "assets/images/links/image-sc.png",
+      "fit": "contain",
+      "mediaBg": "transparent"
+    },
+    {
+      "name": "mesoSPIM Initiative",
+      "url": "https://mesospim.org/",
+      "description": "Open-source light-sheet microscopes for imaging cleared tissue — the initiative behind the three MesoSPIMs built and used at the CBI.",
+      "image": "assets/images/links/mesospim-logo.png",
       "fit": "contain",
       "mediaBg": "transparent"
     },
@@ -31,8 +38,8 @@
       "url": "https://brainimagelibrary.org/",
       "description": "A BRAIN Initiative data archive of high-resolution microscopy — petabytes of open data, free for researchers everywhere.",
       "image": "assets/images/links/bil-logo.png",
-      "mediaBg": "#0d1218",
-      "fit": "contain"
+      "fit": "contain",
+      "mediaBg": "transparent"
     }
   ]
 }
