@@ -146,7 +146,9 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 .btn-magenta {
   background: linear-gradient(135deg, rgba(255, 45, 149, 0.16), rgba(255, 45, 149, 0.07));
   color: var(--magenta); border-color: rgba(255, 45, 149, 0.4);
+  box-shadow: 0 0 24px rgba(255, 45, 149, 0.12), inset 0 0 12px rgba(255, 45, 149, 0.05);
 }
+.btn-magenta:hover { box-shadow: 0 0 34px rgba(255, 45, 149, 0.25); border-color: var(--magenta); }
 .btn-purple {
   background: linear-gradient(135deg, rgba(155, 107, 255, 0.16), rgba(155, 107, 255, 0.07));
   color: #b18cff;
