@@ -12,10 +12,12 @@
   "external": {
     "department": "https://www.cellbiology.pitt.edu/",
     "github": "https://github.com/CBI-PITT",
+    "pitt": "https://www.pitt.edu/",
     "scheduler": "https://scheduler.cbi.pitt.edu/calendar.html",
     "onedrive": "https://pitt-my.sharepoint.com/:f:/g/personal/cbi_pitt_edu/EgKAZCC_P8NMoOxE0Bz1Wx4BkVanT95LEjbcYVdBBdmDjw?e=i9a5mk",
     "globus": "https://app.globus.org/file-manager?origin_id=1bf48fb7-75c4-4768-b88f-c08b9d2ee3b4&origin_path=%2FopenShare%2F",
     "ilabs": "https://pitt.ilab.agilent.com/service_center/show_external/6790/cbi_electron_microscopy_lab",
+    "imarisLearning": "https://imaris.oxinst.com/learning/",
     "video": "https://www.youtube.com/embed/XqrOEuVN_vA"
   },
   "hero_image": "assets/images/misc/surface-rendering-sample.jpg",

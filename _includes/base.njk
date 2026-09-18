@@ -48,10 +48,11 @@
           <a href="{{ '/computing.html' | url }}" {% if page.url == "/computing.html" %}class="active"{% endif %}>Computing</a>
           <a href="{{ '/sample.html' | url }}" {% if page.url == "/sample.html" %}class="active"{% endif %}>Sample Forms</a>
           <a href="{{ '/protocols.html' | url }}" {% if page.url == "/protocols.html" %}class="active"{% endif %}>Protocols</a>
-          <a href="{{ '/training-videos.html' | url }}" {% if page.url == "/training-videos.html" %}class="active"{% endif %}>Training Videos</a>
+          <a href="{{ '/training.html' | url }}" {% if page.url == "/training.html" %}class="active"{% endif %}>Training</a>
           <a href="{{ '/cover.html' | url }}" {% if page.url == "/cover.html" %}class="active"{% endif %}>Covers &amp; Publications</a>
           <a href="{{ '/usage-policy.html' | url }}" {% if page.url == "/usage-policy.html" %}class="active"{% endif %}>Usage Policy</a>
           <a href="{{ '/partners.html' | url }}" {% if page.url == "/partners.html" %}class="active"{% endif %}>Research Partners</a>
+          <a href="{{ '/links.html' | url }}" {% if page.url == "/links.html" %}class="active"{% endif %}>Links you should see</a>
         </div>
       </nav>
 
@@ -105,7 +106,7 @@
     <footer class="footer">
       <div class="footer-inner">
         <div class="footer-brand">
-          {% if site.logo_pitt %}<img src="{{ site.logo_pitt | asset | url }}" alt="University of Pittsburgh" class="footer-logo">{% endif %}
+          {% if site.logo_pitt %}<a href="{{ site.external.pitt }}" target="_blank" rel="noopener"><img src="{{ site.logo_pitt | asset | url }}" alt="University of Pittsburgh" class="footer-logo"></a>{% endif %}
           <div class="footer-tagline">{{ site.tagline }}</div>
         </div>
         <div class="footer-links">

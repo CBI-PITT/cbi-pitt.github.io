@@ -1,0 +1,21 @@
+---
+title: Links you should see
+layout: base
+permalink: /links.html
+---
+<section class="page-hero">
+  <div class="eyebrow">{{ links.eyebrow }}</div>
+  <h1 class="page-title">Links you should <em>see</em></h1>
+  <p class="page-sub">{{ links.intro }}</p>
+</section>
+
+<div class="partner-grid">
+  {% for link in links.links %}
+  <a class="partner-card link-card reveal" href="{{ link.url }}" target="_blank" rel="noopener">
+    {% if link.image %}<div class="link-card-media"{% if link.mediaBg %} style="background: {{ link.mediaBg }}"{% endif %}><img src="{{ link.image | asset | url }}" alt="{{ link.name }}" loading="lazy"{% if link.fit %} style="object-fit: {{ link.fit }}"{% endif %}></div>{% endif %}
+    <h3>{{ link.name }}</h3>
+    <p>{{ link.description }}</p>
+    <span class="more">Visit ↗</span>
+  </a>
+  {% endfor %}
+</div>
