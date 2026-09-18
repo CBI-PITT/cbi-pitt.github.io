@@ -90,9 +90,9 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 }
 .sidebar::-webkit-scrollbar { width: 0; }
 
-.brand { display: flex; align-items: center; gap: 12px; margin-bottom: 26px; }
+.brand { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 26px; }
 .brand:hover { text-decoration: none; }
-.brand-logo { width: 150px; height: auto; object-fit: contain; flex: none; }
+.brand-logo { width: 180px; height: auto; object-fit: contain; flex: none; }
 
 .nav { flex: 1; }
 .nav-group { margin-bottom: 22px; }
