@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Center for Biologic Imaging - University of Pittsburgh. Static site built with Eleventy.",
   "scripts": {
-    "dev": "eleventy --serve",
+    "dev": "eleventy --serve --port=8080",
     "build": "eleventy",
     "clean": "rm -rf _site"
   },
