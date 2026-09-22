@@ -3,6 +3,18 @@ title: Home
 layout: base
 permalink: /
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Center for Biologic Imaging",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}{{ site.logo_cbi | asset | url }}",
+  "parentOrganization": { "@type": "Organization", "name": "University of Pittsburgh" },
+  "telephone": "+1-412-648-9796",
+  "description": "One of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more."
+}
+</script>
 <section class="home-hero">
   <div class="kicker">University of Pittsburgh · Center for Biologic Imaging</div>
   <h1>Science you<br>can <em>see</em>.</h1>

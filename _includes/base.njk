@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>{% if title %}{{ title }} — {% endif %}{{ site.name }} · University of Pittsburgh</title>
-  <meta name="description" content="The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.">
+  <meta name="description" content="{% if description %}{{ description }}{% else %}The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.{% endif %}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{% if title and title != 'Home' %}{{ title }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | url }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.logo_cbi | asset | url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if title and title != 'Home' %}{{ title }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.logo_cbi | asset | url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
