@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="strict-origin-when-cross-origin">
+  {% if site.googleVerification %}<meta name="google-site-verification" content="{{ site.googleVerification }}">{% endif %}
   <title>{% if title %}{{ title }} — {% endif %}{{ site.name }} · University of Pittsburgh</title>
   <meta name="description" content="{% if description %}{{ description }}{% else %}The Center for Biologic Imaging at the University of Pittsburgh is one of the largest microscope-based imaging centers in the US — light and electron microscopy, tissue clearing, super-resolution and more.{% endif %}">
   <link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
