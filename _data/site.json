@@ -2,7 +2,7 @@
   "name": "Center for Biologic Imaging",
   "org": "University of Pittsburgh",
   "tagline": "Science you can see",
-  "url": "https://cbipitt.github.io",
+  "url": "https://cbi-pitt.github.io",
   "phones": {
     "lm": "412-648-9796",
     "em": "412-648-8865",
@@ -23,5 +23,5 @@
   "hero_image": "assets/images/misc/surface-rendering-sample.jpg",
   "logo_cbi": "assets/images/misc/cbi-logo.png",
   "logo_pitt": "assets/images/misc/university-of-pittsburgh-logo.png",
-  "googleVerification": "NIqIRfYvhjJImyNMX9kgcee1BAvaRMOjfTX8nTsL8LQ"
+  "googleVerification": "6nfuWfPLDZ-Un_bVlXic-ybhEW4sbnO0BmdDnkBiqGU"
 }
