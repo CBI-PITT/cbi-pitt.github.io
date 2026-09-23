@@ -1,0 +1,53 @@
+---
+title: Movies
+description: "Tutorial videos and examples of the imaging work we do at the CBI - microscope software, imaging techniques and analysis, pulled in automatically from our YouTube channel."
+layout: base
+permalink: /movie.html
+---
+<section class="page-hero">
+  <div class="eyebrow">Explore</div>
+  <h1 class="page-title">Movie <em>library</em></h1>
+  <p class="page-sub">Tutorials and examples of the imaging work we do at the Center — new videos are pulled in automatically from our <a href="{{ youtube.channelUrl }}" target="_blank" rel="noopener">YouTube channel</a>. Please visit our channel to see additional videos.</p>
+</section>
+
+{% if youtube.videos.length %}
+<div class="video-grid">
+  {% for video in youtube.videos %}
+  <div class="video-card">
+    <div class="video-thumb" data-video="{{ video.id }}" role="button" tabindex="0" aria-label="Play {{ video.title }}">
+      <img src="https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg" alt="{{ video.title }}" loading="lazy">
+      <span class="play" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>
+      </span>
+    </div>
+    <div class="video-meta">
+      <h3>{{ video.title }}</h3>
+      {% if video.published %}<time datetime="{{ video.published }}">{{ video.published | displayDate }}</time>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<p class="page-sub">No videos available right now — check back soon, or visit our <a href="{{ youtube.channelUrl }}" target="_blank" rel="noopener">YouTube channel</a> directly.</p>
+{% endif %}
+
+<script>
+  document.querySelectorAll(".video-thumb").forEach(function (thumb) {
+    function play() {
+      if (thumb.querySelector("iframe")) return;
+      var id = thumb.dataset.video;
+      var iframe = document.createElement("iframe");
+      iframe.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0";
+      iframe.title = "YouTube video player";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+      thumb.classList.add("playing");
+      thumb.innerHTML = "";
+      thumb.appendChild(iframe);
+    }
+    thumb.addEventListener("click", play);
+    thumb.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); play(); }
+    });
+  });
+</script>

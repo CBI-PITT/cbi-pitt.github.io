@@ -668,6 +668,35 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 .lightbox-prev { left: 26px; }
 .lightbox-next { right: 26px; }
 
+/* ------------------------------------------------ videos */
+.video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.video-card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); overflow: hidden;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.video-card:hover { border-color: var(--line-strong); box-shadow: 0 0 50px var(--glow-magenta); }
+.video-thumb {
+  position: relative; aspect-ratio: 16 / 9; background: var(--bg-soft);
+  cursor: pointer; outline-offset: 3px;
+}
+.video-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.video-thumb .play {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  display: flex; align-items: center; justify-content: center;
+  width: 58px; height: 58px; border-radius: 50%;
+  background: rgba(10, 14, 18, 0.72); color: var(--text);
+  border: 1px solid var(--line-strong);
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.video-thumb:hover .play, .video-thumb:focus-visible .play {
+  background: var(--magenta); border-color: var(--magenta); color: #fff;
+}
+.video-thumb iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-meta { padding: 16px 18px 18px; }
+.video-meta h3 { font-family: var(--font-display); font-weight: 500; font-size: 18px; margin-bottom: 6px; }
+.video-meta time { color: var(--faint); font-size: 13px; }
+
 /* ------------------------------------------------ reveal animation */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .reveal.visible { opacity: 1; transform: none; }
@@ -680,6 +709,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 @media (max-width: 1100px) {
   .card-grid, .equip-grid, .doc-grid, .news-grid { grid-template-columns: repeat(2, 1fr); }
   .staff-grid, .cover-grid { grid-template-columns: repeat(3, 1fr); }
+  .video-grid { grid-template-columns: repeat(2, 1fr); }
   .card-grid.cols-4 { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 960px) {
@@ -700,6 +730,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
   .footer-inner { padding: 30px 20px 36px; }
   .card-grid, .equip-grid, .doc-grid, .news-grid, .sample-grid, .partner-grid { grid-template-columns: 1fr; }
   .staff-grid, .cover-grid { grid-template-columns: repeat(2, 1fr); }
+  .video-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .masonry { columns: 2 140px; }
   .pt-cell .sym { font-size: 8px; }
