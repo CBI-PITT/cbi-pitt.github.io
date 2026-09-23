@@ -28,6 +28,8 @@
   --radius: 14px;
   --radius-sm: 9px;
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -53,6 +55,16 @@ a:hover { text-decoration: underline; }
 h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 
 ::selection { background: rgba(0, 229, 255, 0.3); }
+
+/* ------------------------------------------------ scrollbars */
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb {
+  background: var(--line-strong); border-radius: 8px;
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--faint); }
+::-webkit-scrollbar-corner { background: var(--bg); }
 
 /* ------------------------------------------------ skip link */
 .skip-link {
