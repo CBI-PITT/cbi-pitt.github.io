@@ -1,9 +1,13 @@
-const CHANNEL_ID = "UCdHWNYNLmBAjXOUo70GEa8w";
-const CHANNEL_URL = "https://www.youtube.com/@centerforbiologicimaging8175";
+const CHANNEL_ID = "UCfMlnobRWe7H7biRT5oOOLw";
+const CHANNEL_URL = "https://www.youtube.com/@simoncwatkins";
 
 const FALLBACK_VIDEOS = [
-  { id: "OcxUMsXjL00", title: "Explaining the Nikon Elements interface update", published: "2026-09-01" },
-  { id: "IGPYkoZ1Bic", title: "Setting up a Z-stack in NIS elements", published: "2026-09-01" }
+  { id: "Mv4-nALEGmo", title: "Ciliary Beat", published: "2026-09-23" },
+  { id: "MILZYIpyelo", title: "pos 5 aligned", published: "2026-09-23" },
+  { id: "YROOHpaiH1k", title: "position8c", published: "2026-09-23" },
+  { id: "z8lavLTCYGY", title: "capillary", published: "2026-09-23" },
+  { id: "v89FSKIL6RY", title: "group 2", published: "2026-09-23" },
+  { id: "HgNZPXaEqms", title: "decon retina", published: "2026-09-23" }
 ];
 
 function decodeEntities(s) {
