@@ -6,7 +6,7 @@ Static Eleventy site (Center for Biologic Imaging, Univ. of Pittsburgh). No fram
 - `npm run dev` — dev server with live reload at http://localhost:8080
 - `npm run build` — builds into `_site/`; **the only verification step** — run after any change
 - `cd _site && python3 -m http.server 8000` — preview production build
-- CI (`.github/workflows/deploy.yml`) runs `npm ci && npm run build` on every push to `main` and deploys `_site/` to GitHub Pages (`cbipitt.github.io`). No other CI checks exist.
+- CI (`.github/workflows/deploy.yml`) runs `npm ci && npm run build` on every push to `main` and deploys `_site/` to GitHub Pages (`www.cbi.pitt.edu` — custom domain; `cbipitt.github.io` redirects to it). No other CI checks exist.
 
 ## How content works
 - All page content lives in `_data/*.json` and `news/*.md`. The `*.njk` templates are page structure — don't hardcode content in them.

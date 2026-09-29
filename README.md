@@ -2,7 +2,7 @@
 
 A static rebuild of [cbi-pitt.webflow.io](https://cbi-pitt.webflow.io/) with a modern, dark "fluorescence" design. Built with [Eleventy (11ty)](https://www.11ty.dev/) — no runtime frameworks, just plain HTML/CSS/JS output.
 
-**Live URL (after deploy):** `https://cbipitt.github.io`
+**Live URL (after deploy):** `https://www.cbi.pitt.edu` — `https://cbipitt.github.io` remains live and 301-redirects to the custom domain.
 
 ## Quick start
 
@@ -24,8 +24,9 @@ This repo is set up to deploy automatically via GitHub Actions.
 
 1. Create a repo named **`cbipitt.github.io`** under your `cbipitt` organization (this exact name makes the site serve at the domain root).
 2. Push this code to the `main` branch of that repo.
-3. In the repo settings → **Pages** → set **Source** to **GitHub Actions**.
-4. Every push to `main` rebuilds and deploys automatically (`.github/workflows/deploy.yml`).
+3. In the repo settings → **Pages** → set **Source** to **GitHub Actions**, then set **Custom domain** to `www.cbi.pitt.edu` (the repo's `CNAME` file is copied into the deployed site).
+4. Point DNS at the site: a CNAME record `www.cbi.pitt.edu` → `cbipitt.github.io` (Pitt IT). Enable **Enforce HTTPS** once the certificate provisions.
+5. Every push to `main` rebuilds and deploys automatically (`.github/workflows/deploy.yml`).
 
 ## Updating content
 

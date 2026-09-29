@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy(".nojekyll");
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   eleventyConfig.addCollection("news", (collection) =>
     collection.getFilteredByGlob("news/*.md").sort((a, b) => {
