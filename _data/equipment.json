@@ -27,24 +27,24 @@
     "name": "Fritz Slide Scanner",
     "description": "Slide scanner scope capable of scanning bright-field images very quickly and easily.",
     "availability": "Core Instrument training available.",
-    "room": "s216",
+    "room": "S216 hallway",
     "image": "assets/images/equipment/fritz-slide-scanner.jpg",
     "tier": "Core equipment — available 24/7"
   },
   {
-    "name": "Olympus Provis 1 Fluorescence",
-    "description": "Upright widefield capable of imaging white light, 4-color fluorescence, DIC, and polarized light",
+    "name": "Nikon Spinning Disk Confocal",
+    "description": "Spinning disk confocal with live cell capabilities. Ideal for organoid imaging as well as timelapse live cell imaging. Can be used for plate or dish based assays. An exciting new device generously provided to the CBI by the Hillman Cancer Center.",
     "availability": "Core Instrument training available.",
     "room": "S216.8",
-    "image": "assets/images/equipment/olympus-provis-1-fluorescence.jpg",
+    "image": "assets/images/equipment/nikon-spinning-disk-confocal.jpg",
     "tier": "Core equipment — available 24/7"
   },
   {
-    "name": "Olympus Fluoview 1000-2 Confocal",
-    "description": "Upright 4-color confocal and DIC system",
+    "name": "Nikon AX Confocal",
+    "description": "Resonant scanning confocal system with 2kx2k scanning.",
     "availability": "Core Instrument training available.",
     "room": "S216.1",
-    "image": "assets/images/equipment/olympus-fluoview-1000-2-confocal.jpg",
+    "image": "assets/images/equipment/nikon-ax-confocal.jpg",
     "tier": "Core equipment — available 24/7"
   },
   {
@@ -53,6 +53,14 @@
     "availability": "Core Instrument training available.",
     "room": "S216.9",
     "image": "assets/images/equipment/olympus-fluoview-3000-confocal.jpg",
+    "tier": "Core equipment — available 24/7"
+  },
+  {
+    "name": "Nikon A1-2 Confocal",
+    "description": "Inverted Nikon A1 spectral with resonant scanning.",
+    "availability": "Core Instrument training available.",
+    "room": "S216.9",
+    "image": "assets/images/equipment/nikon-a1-confocal-s216-9.jpg",
     "tier": "Core equipment — available 24/7"
   },
   {
