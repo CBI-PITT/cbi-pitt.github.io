@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Equipment training",
+    "items": [
+      {
+        "title": "Cryostat Usage Policy",
+        "description": "Public access Cryostats require training and a list of materials you will need to bring.",
+        "file": "assets/docs/cryostat-usage-policy.docx",
+        "image": "assets/images/misc/cryostat-usage-policy-art.jpg"
+      },
+      {
+        "title": "Nikon NI-E Training",
+        "description": "PPT for training on the Nikon NI-E.",
+        "file": "assets/docs/nikon-ni-e-training.pptx",
+        "image": "assets/images/misc/nikon-ni-e-training-art.jpg"
+      }
+    ]
+  }
+]

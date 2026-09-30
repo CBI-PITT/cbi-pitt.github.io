@@ -98,46 +98,5 @@
         "image": "assets/images/misc/hoechst-recipe-dapi-art.jpg"
       }
     ]
-  },
-  {
-    "title": "Equipment training",
-    "items": [
-      {
-        "title": "Cryostat Usage Policy",
-        "description": "Public access Cryostats require training and a list of materials you will need to bring.",
-        "file": "assets/docs/cryostat-usage-policy.docx",
-        "image": "assets/images/misc/cryostat-usage-policy-art.jpg"
-      },
-      {
-        "title": "Nikon NI-E Training",
-        "description": "PPT for training on the Nikon NI-E.",
-        "file": "assets/docs/nikon-ni-e-training.pptx",
-        "image": "assets/images/misc/nikon-ni-e-training-art.jpg"
-      },
-      {
-        "title": "Provis Brightfield Training",
-        "description": "PDF of the Provis Brightbield training",
-        "file": "assets/docs/provis-brightfield-training.pdf",
-        "image": "assets/images/misc/provis-brightfield-training-art.jpg"
-      },
-      {
-        "title": "Provis Fluorescent Training",
-        "description": "PDF for Provis fluorescent training",
-        "file": "assets/docs/provis-fluorescent-training.pdf",
-        "image": "assets/images/misc/provis-fluorescent-training-art.jpg"
-      },
-      {
-        "title": "Olympus Fluoview-1000 Training",
-        "description": "PDF for the Olympus confocal platform",
-        "file": "assets/docs/olympus-fluoview-1000-training.pdf",
-        "image": "assets/images/misc/olympus-fluoview-1000-training-art.jpg"
-      },
-      {
-        "title": "Provis Shading Correction",
-        "description": "Steps to improve your bright fielld shading correction",
-        "file": "assets/docs/provis-shading-correction.pdf",
-        "image": ""
-      }
-    ]
   }
 ]

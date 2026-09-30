@@ -26,3 +26,19 @@ permalink: /training.html
   <p class="page-sub" style="margin-bottom:26px;">Oxford Instruments' learning portal for Imaris — tutorial videos, webinar recordings and customer case studies for big-data visualization and analysis.</p>
   <a class="btn btn-primary" href="{{ site.external.imarisLearning }}" target="_blank" rel="noopener">Open the Imaris Learning Center ↗</a>
 </div>
+
+{% for section in training %}
+<h2 class="section-title">{{ section.title }}</h2>
+<div class="doc-grid">
+  {% for item in section.items %}
+  <article class="doc-card reveal">
+    {% if item.image %}<div class="art" style="background-image: url('{{ item.image | asset | url }}')"></div>{% endif %}
+    <div class="body">
+      <h3>{{ item.title }}</h3>
+      {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+      <a class="btn btn-ghost dl" href="{{ item.file | asset | url }}" target="_blank" rel="noopener">Download ↓</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endfor %}
