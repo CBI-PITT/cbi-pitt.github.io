@@ -89,7 +89,10 @@
       <button class="menu-btn" data-nav-toggle aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-      <div class="topbar-title">{{ site.org }} <span class="dot">·</span> {{ site.name }}</div>
+      <a href="{{ '/index.html' | url }}" class="topbar-brand" aria-label="CBI home">
+        {% if site.logo_cbi %}<img src="{{ site.logo_cbi | asset | url }}" alt="CBI logo" class="topbar-logo">{% endif %}
+      </a>
+      <div class="topbar-title"><span class="topbar-org">{{ site.org }} <span class="dot">·</span></span> {{ site.name }}</div>
       <button class="topbar-contact" data-contact-open>Get in Touch</button>
     </header>
 

@@ -177,12 +177,14 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
   position: sticky; top: 0; z-index: 80;
   align-items: center; gap: 14px;
   padding: 12px 18px;
-  background: rgba(10, 14, 18, 0.85);
+  background: linear-gradient(180deg, rgba(17, 24, 35, 0.92), rgba(10, 14, 18, 0.96));
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
 }
 .topbar-title { flex: 1; font-size: 13px; color: var(--muted); letter-spacing: 0.02em; }
 .topbar-title .dot { color: var(--cyan); }
+.topbar-brand { display: flex; flex: none; }
+.topbar-logo { height: 40px; width: auto; object-fit: contain; }
 .topbar-contact {
   background: none; border: 1px solid var(--line-strong); color: var(--text);
   border-radius: 100px; padding: 7px 14px; font-size: 13px; cursor: pointer;
@@ -729,6 +731,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
   .sidebar.open { transform: none; }
   .shell { margin-left: 0; }
   .topbar { display: flex; }
+  .topbar-org { display: none; }
   .mission { grid-template-columns: 1fr; gap: 30px; }
   .pt-credits { grid-template-columns: 1fr; }
   .faculty-card, .featured-pub { grid-template-columns: 1fr; }
@@ -739,6 +742,7 @@ h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; }
 }
 @media (max-width: 640px) {
   .main { padding: 34px 20px 30px; }
+  .topbar-contact { display: none; }
   .footer-inner { padding: 30px 20px 36px; }
   .card-grid, .equip-grid, .doc-grid, .news-grid, .sample-grid, .partner-grid { grid-template-columns: 1fr; }
   .staff-grid, .cover-grid { grid-template-columns: repeat(2, 1fr); }
